@@ -38,7 +38,7 @@
         "type": "color"
       },
       "hue": {
-        "value": "260",
+        "value": "343",
         "type": "Variables",
         "description": "Accent color used to control theming"
       },
@@ -625,6 +625,162 @@
           "value": "hsla(186, 71%, 92%, 1)",
           "type": "color"
         }
+      },
+      "Teal": {
+        "100": {
+          "value": "hsla(160, 33%, 5%, 1)",
+          "type": "color"
+        },
+        "150": {
+          "value": "hsla(160, 33%, 9%, 1)",
+          "type": "color"
+        },
+        "200": {
+          "value": "hsla(163, 33%, 12%, 1)",
+          "type": "color"
+        },
+        "250": {
+          "value": "hsla(167, 34%, 15%, 1)",
+          "type": "color"
+        },
+        "300": {
+          "value": "hsla(168, 37%, 19%, 1)",
+          "type": "color"
+        },
+        "350": {
+          "value": "hsla(168, 40%, 22%, 1)",
+          "type": "color"
+        },
+        "400": {
+          "value": "hsla(169, 28%, 28%, 1)",
+          "type": "color"
+        },
+        "450": {
+          "value": "hsla(172, 49%, 27%, 1)",
+          "type": "color"
+        },
+        "500": {
+          "value": "hsla(174, 57%, 29%, 1)",
+          "type": "color"
+        },
+        "550": {
+          "value": "hsla(175, 100%, 26%, 1)",
+          "type": "color"
+        },
+        "600": {
+          "value": "hsla(174, 70%, 34%, 1)",
+          "type": "color"
+        },
+        "650": {
+          "value": "hsla(172, 55%, 41%, 1)",
+          "type": "color"
+        },
+        "700": {
+          "value": "hsla(171, 47%, 46%, 1)",
+          "type": "color"
+        },
+        "750": {
+          "value": "hsla(169, 45%, 52%, 1)",
+          "type": "color"
+        },
+        "800": {
+          "value": "hsla(167, 50%, 59%, 1)",
+          "type": "color"
+        },
+        "850": {
+          "value": "hsla(166, 58%, 65%, 1)",
+          "type": "color"
+        },
+        "900": {
+          "value": "hsla(164, 66%, 71%, 1)",
+          "type": "color"
+        },
+        "950": {
+          "value": "hsla(162, 83%, 77%, 1)",
+          "type": "color"
+        },
+        "1000": {
+          "value": "hsla(158, 75%, 91%, 1)",
+          "type": "color"
+        }
+      },
+      "Green": {
+        "100": {
+          "value": "hsla(109, 81%, 4%, 1)",
+          "type": "color"
+        },
+        "150": {
+          "value": "hsla(112, 78%, 7%, 1)",
+          "type": "color"
+        },
+        "200": {
+          "value": "hsla(117, 70%, 10%, 1)",
+          "type": "color"
+        },
+        "250": {
+          "value": "hsla(123, 63%, 14%, 1)",
+          "type": "color"
+        },
+        "300": {
+          "value": "hsla(129, 73%, 16%, 1)",
+          "type": "color"
+        },
+        "350": {
+          "value": "hsla(134, 67%, 19%, 1)",
+          "type": "color"
+        },
+        "400": {
+          "value": "hsla(138, 64%, 23%, 1)",
+          "type": "color"
+        },
+        "450": {
+          "value": "hsla(141, 60%, 26%, 1)",
+          "type": "color"
+        },
+        "500": {
+          "value": "hsla(146, 73%, 28%, 1)",
+          "type": "color"
+        },
+        "550": {
+          "value": "hsla(153, 100%, 27%, 1)",
+          "type": "color"
+        },
+        "600": {
+          "value": "hsla(140, 50%, 43%, 1)",
+          "type": "color"
+        },
+        "650": {
+          "value": "hsla(136, 47%, 48%, 1)",
+          "type": "color"
+        },
+        "700": {
+          "value": "hsla(132, 49%, 52%, 1)",
+          "type": "color"
+        },
+        "750": {
+          "value": "hsla(126, 56%, 58%, 1)",
+          "type": "color"
+        },
+        "800": {
+          "value": "hsla(121, 64%, 65%, 1)",
+          "type": "color"
+        },
+        "850": {
+          "value": "hsla(121, 64%, 65%, 1)",
+          "type": "color"
+        },
+        "900": {
+          "value": "hsla(116, 69%, 72%, 1)",
+          "type": "color"
+        },
+        "950": {
+          "value": "hsla(113, 78%, 81%, 1)",
+          "type": "color"
+        },
+        "1000": {
+          "value": "hsla(111, 84%, 90%, 1)",
+          "type": "color"
+        }
       }
     },
     "Scale": {
@@ -822,6 +978,26 @@
         "Issue": {
           "value": "#000",
           "type": "color"
+        },
+        "Parts": {
+          "Capability": {
+            "value": "rgba($Decoratives.Voilet.700,0.1)",
+            "type": "color"
+          },
+          "Feature": {
+            "value": "rgba($Decoratives.Sky.700,0.1)",
+            "type": "color"
+          }
+        },
+        "Work": {
+          "Issue": {
+            "value": "rgba($Decoratives.Blue.700,0.1)",
+            "type": "color"
+          },
+          "Feature": {
+            "value": "rgba($Decoratives.Sky.700,0.1)",
+            "type": "color"
+          }
         }
       },
       "Feedback": {
@@ -833,6 +1009,38 @@
       "Input": {
         "Alert": {
           "value": "#000",
+          "type": "color"
+        }
+      }
+    },
+    "Content": {
+      "Decorative": {
+        "Parts": {
+          "Capability": {
+            "value": "$Decoratives.Voilet.700",
+            "type": "color"
+          },
+          "Feature": {
+            "value": "$Decoratives.Sky.700",
+            "type": "color"
+          }
+        },
+        "Work": {
+          "Issue": {
+            "value": "$Decoratives.Blue.700",
+            "type": "color"
+          },
+          "Feature": {
+            "value": "$Decoratives.Sky.700",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "Border": {
+      "Default": {
+        "Seperator": {
+          "value": "$Neutrals.220",
           "type": "color"
         }
       }
