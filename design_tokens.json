@@ -43,7 +43,7 @@
         "description": "Accent color used to control theming"
       },
       "saturation": {
-        "value": "92",
+        "value": "72",
         "type": "Variables"
       }
     },
@@ -309,7 +309,7 @@
         "type": "Variables"
       },
       "saturation": {
-        "value": "8%",
+        "value": "6%",
         "type": "Variables"
       }
     },
@@ -975,10 +975,6 @@
         }
       },
       "Decorative": {
-        "Issue": {
-          "value": "#000",
-          "type": "color"
-        },
         "Parts": {
           "Capability": {
             "value": "rgba($Decoratives.Voilet.700,0.1)",
