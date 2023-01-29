@@ -38,12 +38,12 @@
         "type": "color"
       },
       "hue": {
-        "value": "343",
+        "value": "224",
         "type": "Variables",
         "description": "Accent color used to control theming"
       },
       "saturation": {
-        "value": "72",
+        "value": "64",
         "type": "Variables"
       }
     },
@@ -309,7 +309,7 @@
         "type": "Variables"
       },
       "saturation": {
-        "value": "6%",
+        "value": "8%",
         "type": "Variables"
       }
     },
@@ -859,6 +859,240 @@
           "value": "hsla(58, 98%, 79%, 1)",
           "type": "color"
         }
+      },
+      "Yellow": {
+        "100": {
+          "value": "hsla(40, 75%, 22%, 1)",
+          "type": "color"
+        },
+        "150": {
+          "value": "hsla(41, 79%, 24%, 1)",
+          "type": "color"
+        },
+        "200": {
+          "value": "hsla(41, 75%, 28%, 1)",
+          "type": "color"
+        },
+        "250": {
+          "value": "hsla(41, 75%, 28%, 1)",
+          "type": "color"
+        },
+        "300": {
+          "value": "hsla(39, 61%, 34%, 1)",
+          "type": "color"
+        },
+        "350": {
+          "value": "hsla(41, 60%, 36%, 1)",
+          "type": "color"
+        },
+        "400": {
+          "value": "hsla(41, 61%, 39%, 1)",
+          "type": "color"
+        },
+        "450": {
+          "value": "hsla(42, 65%, 41%, 1)",
+          "type": "color"
+        },
+        "500": {
+          "value": "hsla(44, 71%, 42%, 1)",
+          "type": "color"
+        },
+        "550": {
+          "value": "hsla(44, 75%, 43%, 1)",
+          "type": "color"
+        },
+        "600": {
+          "value": "hsla(44, 67%, 47%, 1)",
+          "type": "color"
+        },
+        "650": {
+          "value": "hsla(44, 64%, 50%, 1)",
+          "type": "color"
+        },
+        "700": {
+          "value": "hsla(44, 69%, 53%, 1)",
+          "type": "color"
+        },
+        "750": {
+          "value": "hsla(44, 74%, 58%, 1)",
+          "type": "color"
+        },
+        "800": {
+          "value": "hsla(43, 79%, 64%, 1)",
+          "type": "color"
+        },
+        "850": {
+          "value": "hsla(43, 89%, 69%, 1)",
+          "type": "color"
+        },
+        "900": {
+          "value": "hsla(46, 85%, 76%, 1)",
+          "type": "color"
+        },
+        "950": {
+          "value": "hsla(47, 86%, 83%, 1)",
+          "type": "color"
+        },
+        "1000": {
+          "value": "hsla(51, 90%, 88%, 1)",
+          "type": "color"
+        }
+      },
+      "Orange": {
+        "100": {
+          "value": "hsla(27, 85%, 20%, 1)",
+          "type": "color"
+        },
+        "150": {
+          "value": "hsla(28, 74%, 23%, 1)",
+          "type": "color"
+        },
+        "200": {
+          "value": "hsla(27, 74%, 26%, 1)",
+          "type": "color"
+        },
+        "250": {
+          "value": "hsla(26, 72%, 31%, 1)",
+          "type": "color"
+        },
+        "300": {
+          "value": "hsla(27, 70%, 35%, 1)",
+          "type": "color"
+        },
+        "350": {
+          "value": "hsla(27, 75%, 39%, 1)",
+          "type": "color"
+        },
+        "400": {
+          "value": "hsla(29, 81%, 40%, 1)",
+          "type": "color"
+        },
+        "450": {
+          "value": "hsla(28, 71%, 46%, 1)",
+          "type": "color"
+        },
+        "500": {
+          "value": "hsla(27, 73%, 48%, 1)",
+          "type": "color"
+        },
+        "550": {
+          "value": "hsla(27, 80%, 51%, 1)",
+          "type": "color"
+        },
+        "600": {
+          "value": "hsla(27, 90%, 54%, 1)",
+          "type": "color"
+        },
+        "650": {
+          "value": "hsla(26, 96%, 58%, 1)",
+          "type": "color"
+        },
+        "700": {
+          "value": "hsla(25, 96%, 63%, 1)",
+          "type": "color"
+        },
+        "750": {
+          "value": "hsla(23, 98%, 67%, 1)",
+          "type": "color"
+        },
+        "800": {
+          "value": "hsla(23, 96%, 69%, 1)",
+          "type": "color"
+        },
+        "850": {
+          "value": "hsla(23, 94%, 74%, 1)",
+          "type": "color"
+        },
+        "900": {
+          "value": "hsla(23, 92%, 79%, 1)",
+          "type": "color"
+        },
+        "950": {
+          "value": "hsla(22, 89%, 86%, 1)",
+          "type": "color"
+        },
+        "1000": {
+          "value": "hsla(22, 100%, 91%, 1)",
+          "type": "color"
+        }
+      },
+      "Red": {
+        "100": {
+          "value": "hsla(350, 78%, 17%, 1)",
+          "type": "color"
+        },
+        "150": {
+          "value": "hsla(351, 64%, 21%, 1)",
+          "type": "color"
+        },
+        "200": {
+          "value": "hsla(353, 63%, 25%, 1)",
+          "type": "color"
+        },
+        "250": {
+          "value": "hsla(352, 74%, 34%, 1)",
+          "type": "color"
+        },
+        "300": {
+          "value": "hsla(352, 74%, 34%, 1)",
+          "type": "color"
+        },
+        "350": {
+          "value": "hsla(351, 77%, 37%, 1)",
+          "type": "color"
+        },
+        "400": {
+          "value": "hsla(353, 74%, 42%, 1)",
+          "type": "color"
+        },
+        "450": {
+          "value": "hsla(354, 74%, 50%, 1)",
+          "type": "color"
+        },
+        "500": {
+          "value": "hsla(355, 95%, 58%, 1)",
+          "type": "color"
+        },
+        "550": {
+          "value": "hsla(355, 95%, 58%, 1)",
+          "type": "color"
+        },
+        "600": {
+          "value": "hsla(355, 95%, 62%, 1)",
+          "type": "color"
+        },
+        "650": {
+          "value": "hsla(357, 95%, 66%, 1)",
+          "type": "color"
+        },
+        "700": {
+          "value": "hsla(357, 92%, 72%, 1)",
+          "type": "color"
+        },
+        "750": {
+          "value": "hsla(356, 97%, 77%, 1)",
+          "type": "color"
+        },
+        "800": {
+          "value": "hsla(358, 94%, 79%, 1)",
+          "type": "color"
+        },
+        "850": {
+          "value": "hsla(358, 90%, 84%, 1)",
+          "type": "color"
+        },
+        "900": {
+          "value": "hsla(358, 90%, 88%, 1)",
+          "type": "color"
+        },
+        "950": {
+          "value": "hsla(358, 83%, 91%, 1)",
+          "type": "color"
+        },
+        "1000": {
+          "value": "hsla(358, 89%, 93%, 1)",
+          "type": "color"
+        }
       }
     },
     "Scale": {
@@ -1071,6 +1305,10 @@
           "Ticket": {
             "value": "rgba($Decoratives.Lime.900,0.1)",
             "type": "color"
+          },
+          "Conversation": {
+            "value": "rgba($Decoratives.Orange.700,0.1)",
+            "type": "color"
           }
         }
       },
@@ -1107,6 +1345,10 @@
           "Ticket": {
             "value": "$Decoratives.Lime.900",
             "type": "color"
+          },
+          "Conversation": {
+            "value": "$Decoratives.Orange.700",
+            "type": "color"
           }
         },
         "Identity": {
@@ -1119,6 +1361,26 @@
             "type": "color"
           }
         }
+      },
+      "Primary": {
+        "value": "$Neutrals.960",
+        "type": "color"
+      },
+      "Highlight": {
+        "value": "$Neutrals.1000",
+        "type": "color"
+      },
+      "Secondary": {
+        "value": "$Neutrals.740",
+        "type": "color"
+      },
+      "Tertiary": {
+        "value": "$Neutrals.540",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "$Neutrals.460",
+        "type": "color"
       }
     },
     "Border": {
