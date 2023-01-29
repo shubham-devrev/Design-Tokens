@@ -1362,12 +1362,12 @@
           }
         }
       },
-      "Primary": {
-        "value": "$Neutrals.960",
-        "type": "color"
-      },
       "Highlight": {
         "value": "$Neutrals.1000",
+        "type": "color"
+      },
+      "Primary": {
+        "value": "$Neutrals.960",
         "type": "color"
       },
       "Secondary": {
@@ -1375,10 +1375,10 @@
         "type": "color"
       },
       "Tertiary": {
-        "value": "$Neutrals.540",
+        "value": "$Neutrals.620",
         "type": "color"
       },
-      "Disabled": {
+      "Muted": {
         "value": "$Neutrals.460",
         "type": "color"
       }
