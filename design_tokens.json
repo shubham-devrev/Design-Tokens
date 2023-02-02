@@ -1795,7 +1795,7 @@
         },
         "Secondary": {
           "Default": {
-            "value": "$Neutrals.820",
+            "value": "$Neutrals.1000",
             "type": "color"
           },
           "Hovered": {
@@ -2022,7 +2022,7 @@
           "type": "color"
         },
         "Muted": {
-          "value": "$Neutrals.700",
+          "value": "$Neutrals.620",
           "type": "color"
         }
       },
@@ -2126,7 +2126,7 @@
           "type": "color"
         },
         "Filled": {
-          "value": "$Content.Default.Inverted",
+          "value": "$Content.Default.Primary",
           "type": "color"
         },
         "Disabled": {
