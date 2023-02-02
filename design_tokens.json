@@ -1400,6 +1400,54 @@
       }
     },
     "Content": {
+      "Default": {
+        "Highlight": {
+          "value": "$Neutrals.1000",
+          "type": "color"
+        },
+        "Primary": {
+          "value": "$Neutrals.960",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "$Neutrals.740",
+          "type": "color"
+        },
+        "Tertiary": {
+          "value": "$Neutrals.620",
+          "type": "color"
+        },
+        "Muted": {
+          "value": "$Neutrals.460",
+          "type": "color"
+        }
+      },
+      "Feedback": {
+        "Alert": {
+          "value": "$Alert.650",
+          "type": "color"
+        },
+        "Success": {
+          "value": "$Success.650",
+          "type": "color"
+        },
+        "Warning": {
+          "value": "$Warning.650",
+          "type": "color"
+        },
+        "Smart": {
+          "value": "$Decoratives.Voilet.650",
+          "type": "color"
+        },
+        "Link": {
+          "value": "$Decoratives.Blue.600",
+          "type": "color"
+        },
+        "Neutral": {
+          "value": "$Neutrals.880",
+          "type": "color"
+        }
+      },
       "Decorative": {
         "Parts": {
           "Capability": {
@@ -1466,54 +1514,6 @@
             "value": "$Decoratives.Lime.900",
             "type": "color"
           }
-        }
-      },
-      "Default": {
-        "Highlight": {
-          "value": "$Neutrals.1000",
-          "type": "color"
-        },
-        "Primary": {
-          "value": "$Neutrals.960",
-          "type": "color"
-        },
-        "Secondary": {
-          "value": "$Neutrals.740",
-          "type": "color"
-        },
-        "Tertiary": {
-          "value": "$Neutrals.620",
-          "type": "color"
-        },
-        "Muted": {
-          "value": "$Neutrals.460",
-          "type": "color"
-        }
-      },
-      "Feedback": {
-        "Alert": {
-          "value": "$Alert.650",
-          "type": "color"
-        },
-        "Success": {
-          "value": "$Success.650",
-          "type": "color"
-        },
-        "Warning": {
-          "value": "$Warning.650",
-          "type": "color"
-        },
-        "Smart": {
-          "value": "$Decoratives.Voilet.650",
-          "type": "color"
-        },
-        "Link": {
-          "value": "$Decoratives.Blue.600",
-          "type": "color"
-        },
-        "Neutral": {
-          "value": "$Neutrals.880",
-          "type": "color"
         }
       },
       "Input": {
