@@ -1393,8 +1393,12 @@
           "value": "{Accent.500}",
           "type": "color"
         },
+        "Radio": {
+          "value": "{Accent.500}",
+          "type": "color"
+        },
         "Disabled": {
-          "value": "rgba({Neutrals.900},0.2)",
+          "value": "$Neutrals.120",
           "type": "color"
         }
       }
@@ -1402,6 +1406,10 @@
     "Content": {
       "Default": {
         "Highlight": {
+          "value": "$Neutrals.1000",
+          "type": "color"
+        },
+        "Inverted": {
           "value": "$Neutrals.1000",
           "type": "color"
         },
@@ -1451,39 +1459,39 @@
       "Decorative": {
         "Parts": {
           "Capability": {
-            "value": "$Decoratives.Voilet.700",
+            "value": "$Decoratives.Blue.700",
             "type": "color"
           },
           "Feature": {
-            "value": "$Decoratives.Teal.700",
+            "value": "$Decoratives.Sky.700",
             "type": "color"
           },
           "Enhancement": {
-            "value": "$Decoratives.Sky.700",
+            "value": "$Decoratives.Pink.700",
             "type": "color"
           },
           "Product": {
-            "value": "$Decoratives.Sky.700",
+            "value": "$Decoratives.Voilet.700",
             "type": "color"
           },
           "API": {
-            "value": "$Decoratives.Sky.700",
+            "value": "$Decoratives.Green.700",
             "type": "color"
           },
           "API-Cluster": {
-            "value": "$Decoratives.Sky.700",
+            "value": "$Decoratives.Yellow.700",
             "type": "color"
           },
           "Runnable": {
-            "value": "$Decoratives.Sky.700",
+            "value": "$Decoratives.Lime.700",
             "type": "color"
           },
           "Linkable": {
-            "value": "$Decoratives.Sky.700",
+            "value": "$Decoratives.Yellow.700",
             "type": "color"
           },
           "Database": {
-            "value": "$Decoratives.Sky.700",
+            "value": "$Decoratives.Orange.700",
             "type": "color"
           },
           "Sub-Feature": {
@@ -1507,32 +1515,230 @@
         },
         "Identity": {
           "Customer": {
-            "value": "$Decoratives.Sky.800",
+            "value": "$Decoratives.Green.800",
             "type": "color"
           },
           "Developer": {
-            "value": "$Decoratives.Lime.900",
+            "value": "$Decoratives.Blue.900",
             "type": "color"
           }
         }
       },
       "Input": {
         "Placeholder": {
-          "value": "$Neutrals.460",
+          "value": "$Content.Default.Muted",
           "type": "color"
+        },
+        "Filled": {
+          "value": "$Content.Default.Primary",
+          "type": "color"
+        },
+        "Disabled": {
+          "value": "$Content.Default.Muted",
+          "type": "color"
+        }
+      },
+      "Interactive": {
+        "Primary": {
+          "Default": {
+            "value": "$Content.Default.Highlight",
+            "type": "color"
+          },
+          "Disabled": {
+            "value": "$Content.Default.Muted",
+            "type": "color"
+          }
+        },
+        "Secondary": {
+          "Default": {
+            "value": "$Content.Default.Highlight",
+            "type": "color"
+          },
+          "Disabled": {
+            "value": "$Content.Default.Muted",
+            "type": "color"
+          }
+        },
+        "Tertiary": {
+          "Default": {
+            "value": "$Content.Default.Highlight",
+            "type": "color"
+          },
+          "Disabled": {
+            "value": "$Content.Default.Muted",
+            "type": "color"
+          }
+        },
+        "Flat": {
+          "Default": {
+            "value": "$Content.Default.Tertiary",
+            "type": "color"
+          },
+          "Selected": {
+            "value": "$Content.Default.Highlight",
+            "type": "color"
+          },
+          "Disabled": {
+            "value": "$Content.Default.Muted",
+            "type": "color"
+          }
         }
       }
     },
     "Border": {
       "Default": {
-        "Seperator": {
+        "Outline": {
           "value": "$Neutrals.220",
           "type": "color"
+        },
+        "Hovered": {
+          "value": "$Neutrals.300",
+          "type": "color"
+        },
+        "Focused": {
+          "value": "$Neutrals.380",
+          "type": "color"
+        },
+        "Disabled": {
+          "value": "$Neutrals.120",
+          "type": "color"
+        }
+      },
+      "Feedback": {
+        "Alert": {
+          "value": "$Alert.650",
+          "type": "color"
+        },
+        "Success": {
+          "value": "$Success.650",
+          "type": "color"
+        },
+        "Warning": {
+          "value": "$Warning.650",
+          "type": "color"
+        },
+        "Smart": {
+          "value": "$Decoratives.Voilet.650",
+          "type": "color"
+        },
+        "Link": {
+          "value": "$Decoratives.Blue.600",
+          "type": "color"
+        },
+        "Neutral": {
+          "value": "$Neutrals.880",
+          "type": "color"
+        }
+      },
+      "Decorative": {
+        "Parts": {
+          "Capability": {
+            "value": "rgba({Content.Decorative.Parts.Capability},0.1)",
+            "type": "color"
+          },
+          "Feature": {
+            "value": "rgba({Content.Decorative.Parts.Feature},0.1)",
+            "type": "color"
+          },
+          "Enhancement": {
+            "value": "rgba({Content.Decorative.Parts.Enhancement},0.1)",
+            "type": "color"
+          },
+          "Product": {
+            "value": "rgba({Content.Decorative.Parts.Product},0.1)",
+            "type": "color"
+          },
+          "API": {
+            "value": "rgba({Content.Decorative.Parts.API},0.1)",
+            "type": "color"
+          },
+          "API-Cluster": {
+            "value": "rgba({Content.Decorative.Parts.API-Cluster},0.1)",
+            "type": "color"
+          },
+          "Runnable": {
+            "value": "rgba({Content.Decorative.Parts.Runnable},0.1)",
+            "type": "color"
+          },
+          "Linkable": {
+            "value": "rgba({Content.Decorative.Parts.Linkable},0.1)",
+            "type": "color"
+          },
+          "Database": {
+            "value": "rgba({Content.Decorative.Parts.Database},0.1)",
+            "type": "color"
+          },
+          "Sub-Feature": {
+            "value": "rgba({Content.Decorative.Parts.Sub-Feature},0.1)",
+            "type": "color"
+          }
+        },
+        "Work": {
+          "Issue": {
+            "value": "rgba({Content.Decorative.Work.Issue},0.1)",
+            "type": "color"
+          },
+          "Ticket": {
+            "value": "rgba({Content.Decorative.Work.Ticket},0.1)",
+            "type": "color"
+          },
+          "Conversation": {
+            "value": "rgba({Content.Decorative.Work.Conversation},0.1)",
+            "type": "color"
+          }
+        },
+        "Identity": {
+          "Issue": {
+            "value": "rgba({Content.Decorative.Identity.Customer},0.1)",
+            "type": "color"
+          },
+          "Ticket": {
+            "value": "rgba({Content.Decorative.Identity.Developer},0.1)",
+            "type": "color"
+          }
+        }
+      },
+      "Input": {
+        "Empty": {
+          "value": "$Neutrals.220",
+          "type": "color"
+        },
+        "Hovered": {
+          "value": "$Neutrals.300",
+          "type": "color"
+        },
+        "Focused": {
+          "value": "$Neutrals.380",
+          "type": "color"
+        },
+        "Disabled": {
+          "value": "$Neutrals.160",
+          "type": "color"
+        },
+        "Checkbox": {
+          "Default": {
+            "value": "$Neutrals.220",
+            "type": "color"
+          },
+          "Hovered": {
+            "value": "$Neutrals.260",
+            "type": "color"
+          }
+        },
+        "Radio": {
+          "Default": {
+            "value": "$Neutrals.220",
+            "type": "color"
+          },
+          "Hovered": {
+            "value": "$Neutrals.260",
+            "type": "color"
+          }
         }
       }
     }
   },
-  "Colors/Light Mode": {
+  "Colors/Light_Mode": {
     "Background": {
       "Layer": {
         "00": {
@@ -1544,36 +1750,596 @@
           "type": "color"
         },
         "02": {
-          "value": "$Neutrals.160",
+          "value": "$Neutrals.960",
           "type": "color"
         },
         "03": {
-          "value": "$Neutrals.180",
+          "value": "$Neutrals.940",
           "type": "color"
         },
         "04": {
-          "value": "$Neutrals.200",
+          "value": "$Neutrals.880",
           "type": "color"
         },
         "05": {
-          "value": "$Neutrals.220",
+          "value": "$Neutrals.860",
           "type": "color"
         },
         "06": {
-          "value": "$Neutrals.260",
+          "value": "$Neutrals.820",
           "type": "color"
+        }
+      },
+      "Interactive": {
+        "Primary": {
+          "Default": {
+            "value": "$Accent.500",
+            "type": "color"
+          },
+          "Hovered": {
+            "value": "{Accent.400}",
+            "type": "color"
+          },
+          "Selected": {
+            "value": "$Accent.300",
+            "type": "color"
+          },
+          "Focused": {
+            "value": "$Accent.300",
+            "type": "color"
+          },
+          "Disabled": {
+            "value": "rgba($Accent.500,0.2)",
+            "type": "color"
+          }
+        },
+        "Secondary": {
+          "Default": {
+            "value": "$Neutrals.820",
+            "type": "color"
+          },
+          "Hovered": {
+            "value": "$Neutrals.800",
+            "type": "color"
+          },
+          "Selected": {
+            "value": "$Neutrals.780",
+            "type": "color"
+          },
+          "Focused": {
+            "value": "$Neutrals.700",
+            "type": "color"
+          },
+          "Disabled": {
+            "value": "rgba($Background.Interactive.Secondary.Default,0.2)",
+            "type": "color"
+          }
+        },
+        "Tertiary": {
+          "Default": {
+            "value": "$Neutrals.900",
+            "type": "color"
+          },
+          "Hovered": {
+            "value": "$Neutrals.880",
+            "type": "color"
+          },
+          "Selected": {
+            "value": "$Neutrals.860",
+            "type": "color"
+          },
+          "Focused": {
+            "value": "$Neutrals.860",
+            "type": "color"
+          },
+          "Disabled": {
+            "value": "rgba($Background.Interactive.Tertiary.Default,0.2)",
+            "type": "color"
+          }
+        },
+        "Flat": {
+          "Default": {
+            "value": "rgba($Neutrals.260,0)",
+            "type": "color"
+          },
+          "Hovered": {
+            "value": "$Neutrals.900",
+            "type": "color"
+          },
+          "Selected": {
+            "value": "$Neutrals.860",
+            "type": "color"
+          },
+          "Focused": {
+            "value": "$Neutrals.300",
+            "type": "color"
+          },
+          "Disabled": {
+            "value": "$Background.Interactive.Flat.Default",
+            "type": "color"
+          }
+        },
+        "Destructive": {
+          "Default": {
+            "value": "$Alert.450",
+            "type": "color"
+          },
+          "Hovered": {
+            "value": "$Alert.350",
+            "type": "color"
+          },
+          "Selected": {
+            "value": "$Alert.250",
+            "type": "color"
+          },
+          "Focused": {
+            "value": "$Alert.250",
+            "type": "color"
+          },
+          "Disabled": {
+            "value": "rgba($Background.Interactive.Destructive.Default,0.2)",
+            "type": "color"
+          }
+        }
+      },
+      "Decorative": {
+        "Parts": {
+          "Capability": {
+            "value": "rgba({Content.Decorative.Parts.Capability},0.1)",
+            "type": "color"
+          },
+          "Feature": {
+            "value": "rgba({Content.Decorative.Parts.Feature},0.1)",
+            "type": "color"
+          },
+          "Enhancement": {
+            "value": "rgba({Content.Decorative.Parts.Enhancement},0.1)",
+            "type": "color"
+          },
+          "Product": {
+            "value": "rgba({Content.Decorative.Parts.Product},0.1)",
+            "type": "color"
+          },
+          "API": {
+            "value": "rgba({Content.Decorative.Parts.API},0.1)",
+            "type": "color"
+          },
+          "API-Cluster": {
+            "value": "rgba({Content.Decorative.Parts.API-Cluster},0.1)",
+            "type": "color"
+          },
+          "Runnable": {
+            "value": "rgba({Content.Decorative.Parts.Runnable},0.1)",
+            "type": "color"
+          },
+          "Linkable": {
+            "value": "rgba({Content.Decorative.Parts.Linkable},0.1)",
+            "type": "color"
+          },
+          "Database": {
+            "value": "rgba({Content.Decorative.Parts.Database},0.1)",
+            "type": "color"
+          },
+          "Sub-Feature": {
+            "value": "rgba({Content.Decorative.Parts.Sub-Feature},0.1)",
+            "type": "color"
+          }
+        },
+        "Work": {
+          "Issue": {
+            "value": "rgba({Content.Decorative.Work.Issue},0.1)",
+            "type": "color"
+          },
+          "Ticket": {
+            "value": "rgba({Content.Decorative.Work.Ticket},0.1)",
+            "type": "color"
+          },
+          "Conversation": {
+            "value": "rgba({Content.Decorative.Work.Conversation},0.1)",
+            "type": "color"
+          }
+        },
+        "Identity": {
+          "Issue": {
+            "value": "rgba({Content.Decorative.Identity.Customer},0.1)",
+            "type": "color"
+          },
+          "Ticket": {
+            "value": "rgba({Content.Decorative.Identity.Developer},0.1)",
+            "type": "color"
+          }
+        }
+      },
+      "Feedback": {
+        "Alert": {
+          "value": "rgba({Content.Feedback.Alert},0.1)",
+          "type": "color"
+        },
+        "Success": {
+          "value": "rgba({Content.Feedback.Success},0.1)",
+          "type": "color"
+        },
+        "Warning": {
+          "value": "rgba({Content.Feedback.Warning},0.1)",
+          "type": "color"
+        },
+        "Smart": {
+          "value": "rgba({Content.Feedback.Smart},0.1)",
+          "type": "color"
+        },
+        "Neutral": {
+          "value": "rgba({Content.Feedback.Neutral},0.2)",
+          "type": "color"
+        }
+      },
+      "Input": {
+        "Empty": {
+          "value": "{Neutrals.960}",
+          "type": "color"
+        },
+        "Search": {
+          "value": "{Neutrals.1000}",
+          "type": "color"
+        },
+        "Checkbox": {
+          "value": "{Accent.500}",
+          "type": "color"
+        },
+        "Toggle": {
+          "value": "{Accent.500}",
+          "type": "color"
+        },
+        "Radio": {
+          "value": "{Accent.500}",
+          "type": "color"
+        },
+        "Disabled": {
+          "value": "$Neutrals.1000",
+          "type": "color"
+        }
+      }
+    },
+    "Content": {
+      "Default": {
+        "Highlight": {
+          "value": "$Neutrals.100",
+          "type": "color"
+        },
+        "Inverted": {
+          "value": "$Neutrals.1000",
+          "type": "color"
+        },
+        "Primary": {
+          "value": "$Neutrals.140",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "$Neutrals.300",
+          "type": "color"
+        },
+        "Tertiary": {
+          "value": "$Neutrals.460",
+          "type": "color"
+        },
+        "Muted": {
+          "value": "$Neutrals.700",
+          "type": "color"
+        }
+      },
+      "Feedback": {
+        "Alert": {
+          "value": "$Alert.650",
+          "type": "color"
+        },
+        "Success": {
+          "value": "$Success.650",
+          "type": "color"
+        },
+        "Warning": {
+          "value": "$Warning.650",
+          "type": "color"
+        },
+        "Smart": {
+          "value": "$Decoratives.Voilet.650",
+          "type": "color"
+        },
+        "Link": {
+          "value": "$Decoratives.Blue.600",
+          "type": "color"
+        },
+        "Neutral": {
+          "value": "$Neutrals.380",
+          "type": "color"
+        }
+      },
+      "Decorative": {
+        "Parts": {
+          "Capability": {
+            "value": "$Decoratives.Blue.500",
+            "type": "color"
+          },
+          "Feature": {
+            "value": "$Decoratives.Sky.500",
+            "type": "color"
+          },
+          "Enhancement": {
+            "value": "$Decoratives.Pink.500",
+            "type": "color"
+          },
+          "Product": {
+            "value": "$Decoratives.Voilet.500",
+            "type": "color"
+          },
+          "API": {
+            "value": "$Decoratives.Green.700",
+            "type": "color"
+          },
+          "API-Cluster": {
+            "value": "$Decoratives.Yellow.700",
+            "type": "color"
+          },
+          "Runnable": {
+            "value": "$Decoratives.Lime.700",
+            "type": "color"
+          },
+          "Linkable": {
+            "value": "$Decoratives.Yellow.700",
+            "type": "color"
+          },
+          "Database": {
+            "value": "$Decoratives.Orange.700",
+            "type": "color"
+          },
+          "Sub-Feature": {
+            "value": "$Decoratives.Sky.700",
+            "type": "color"
+          }
+        },
+        "Work": {
+          "Issue": {
+            "value": "$Decoratives.Blue.500",
+            "type": "color"
+          },
+          "Ticket": {
+            "value": "$Decoratives.Lime.500",
+            "type": "color"
+          },
+          "Conversation": {
+            "value": "$Decoratives.Orange.500",
+            "type": "color"
+          }
+        },
+        "Identity": {
+          "Customer": {
+            "value": "$Decoratives.Green.500",
+            "type": "color"
+          },
+          "Developer": {
+            "value": "$Decoratives.Blue.900",
+            "type": "color"
+          }
+        }
+      },
+      "Input": {
+        "Placeholder": {
+          "value": "$Content.Default.Muted",
+          "type": "color"
+        },
+        "Filled": {
+          "value": "$Content.Default.Inverted",
+          "type": "color"
+        },
+        "Disabled": {
+          "value": "$Content.Default.Muted",
+          "type": "color"
+        }
+      },
+      "Interactive": {
+        "Primary": {
+          "Default": {
+            "value": "$Neutrals.1000",
+            "type": "color"
+          },
+          "Disabled": {
+            "value": "$Neutrals.900",
+            "type": "color"
+          }
+        },
+        "Secondary": {
+          "Default": {
+            "value": "$Content.Default.Primary",
+            "type": "color"
+          },
+          "Disabled": {
+            "value": "$Content.Default.Muted",
+            "type": "color"
+          }
+        },
+        "Tertiary": {
+          "Default": {
+            "value": "$Content.Default.Primary",
+            "type": "color"
+          },
+          "Disabled": {
+            "value": "$Content.Default.Muted",
+            "type": "color"
+          }
+        },
+        "Flat": {
+          "Default": {
+            "value": "$Content.Default.Tertiary",
+            "type": "color"
+          },
+          "Selected": {
+            "value": "$Content.Default.Primary",
+            "type": "color"
+          },
+          "Disabled": {
+            "value": "$Content.Default.Muted",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "Border": {
+      "Default": {
+        "Outline": {
+          "value": "$Neutrals.880",
+          "type": "color"
+        },
+        "Hovered": {
+          "value": "$Neutrals.300",
+          "type": "color"
+        },
+        "Focused": {
+          "value": "$Neutrals.740",
+          "type": "color"
+        },
+        "Disabled": {
+          "value": "$Neutrals.120",
+          "type": "color"
+        }
+      },
+      "Feedback": {
+        "Alert": {
+          "value": "$Alert.450",
+          "type": "color"
+        },
+        "Success": {
+          "value": "$Success.450",
+          "type": "color"
+        },
+        "Warning": {
+          "value": "$Warning.650",
+          "type": "color"
+        },
+        "Smart": {
+          "value": "$Decoratives.Voilet.650",
+          "type": "color"
+        },
+        "Link": {
+          "value": "$Decoratives.Blue.600",
+          "type": "color"
+        },
+        "Neutral": {
+          "value": "$Neutrals.880",
+          "type": "color"
+        }
+      },
+      "Decorative": {
+        "Parts": {
+          "Capability": {
+            "value": "rgba({Content.Decorative.Parts.Capability},0.1)",
+            "type": "color"
+          },
+          "Feature": {
+            "value": "rgba({Content.Decorative.Parts.Feature},0.1)",
+            "type": "color"
+          },
+          "Enhancement": {
+            "value": "rgba({Content.Decorative.Parts.Enhancement},0.1)",
+            "type": "color"
+          },
+          "Product": {
+            "value": "rgba({Content.Decorative.Parts.Product},0.1)",
+            "type": "color"
+          },
+          "API": {
+            "value": "rgba({Content.Decorative.Parts.API},0.1)",
+            "type": "color"
+          },
+          "API-Cluster": {
+            "value": "rgba({Content.Decorative.Parts.API-Cluster},0.1)",
+            "type": "color"
+          },
+          "Runnable": {
+            "value": "rgba({Content.Decorative.Parts.Runnable},0.1)",
+            "type": "color"
+          },
+          "Linkable": {
+            "value": "rgba({Content.Decorative.Parts.Linkable},0.1)",
+            "type": "color"
+          },
+          "Database": {
+            "value": "rgba({Content.Decorative.Parts.Database},0.1)",
+            "type": "color"
+          },
+          "Sub-Feature": {
+            "value": "rgba({Content.Decorative.Parts.Sub-Feature},0.1)",
+            "type": "color"
+          }
+        },
+        "Work": {
+          "Issue": {
+            "value": "rgba({Content.Decorative.Work.Issue},0.1)",
+            "type": "color"
+          },
+          "Ticket": {
+            "value": "rgba({Content.Decorative.Work.Ticket},0.1)",
+            "type": "color"
+          },
+          "Conversation": {
+            "value": "rgba({Content.Decorative.Work.Conversation},0.1)",
+            "type": "color"
+          }
+        },
+        "Identity": {
+          "Issue": {
+            "value": "rgba({Content.Decorative.Identity.Customer},0.1)",
+            "type": "color"
+          },
+          "Ticket": {
+            "value": "rgba({Content.Decorative.Identity.Developer},0.1)",
+            "type": "color"
+          }
+        }
+      },
+      "Input": {
+        "Empty": {
+          "value": "$Neutrals.880",
+          "type": "color"
+        },
+        "Hovered": {
+          "value": "$Neutrals.860",
+          "type": "color"
+        },
+        "Focused": {
+          "value": "$Neutrals.740",
+          "type": "color"
+        },
+        "Disabled": {
+          "value": "$Neutrals.840",
+          "type": "color"
+        },
+        "Checkbox": {
+          "Default": {
+            "value": "$Neutrals.880",
+            "type": "color"
+          },
+          "Hovered": {
+            "value": "$Neutrals.260",
+            "type": "color"
+          }
+        },
+        "Radio": {
+          "Default": {
+            "value": "$Neutrals.220",
+            "type": "color"
+          },
+          "Hovered": {
+            "value": "$Neutrals.260",
+            "type": "color"
+          }
         }
       }
     },
     "Neutrals": {
       "saturation": {
-        "value": "24%",
+        "value": "16%",
         "type": "other"
       }
     }
   },
-  "Border/Desktop": {},
-  "Border/Mobile": {},
   "Scale/Desktop": {},
   "Scale/Mobile": {},
   "Dark Themes/Neon": {},
@@ -1583,9 +2349,7 @@
     "tokenSetOrder": [
       "Colors/Core",
       "Colors/Dark Mode",
-      "Colors/Light Mode",
-      "Border/Desktop",
-      "Border/Mobile",
+      "Colors/Light_Mode",
       "Scale/Desktop",
       "Scale/Mobile",
       "Dark Themes/Neon",
