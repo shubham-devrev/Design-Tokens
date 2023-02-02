@@ -1,5 +1,5 @@
 {
-  "Core": {
+  "Colors/Core": {
     "Accent": {
       "100": {
         "value": "hsla({Accent.hue}, {Accent.saturation}%, 10%, 1)",
@@ -21,8 +21,8 @@
         "value": "hsla({Accent.hue}, {Accent.saturation}%, 50%, 1)",
         "type": "color"
       },
-      "600": {
-        "value": "hsla({Accent.hue}, {Accent.saturation}%, 60%, 1)",
+      "550": {
+        "value": "hsla({Accent.hue}, {Accent.saturation}%, 55%, 1)",
         "type": "color"
       },
       "700": {
@@ -43,7 +43,7 @@
         "description": "Accent color used to control theming"
       },
       "saturation": {
-        "value": "64",
+        "value": "76",
         "type": "Variables"
       }
     },
@@ -1133,7 +1133,7 @@
         "type": "sizing"
       },
       "Desktop": {
-        "value": "16",
+        "value": "20",
         "type": "other"
       },
       "Mobile": {
@@ -1142,7 +1142,7 @@
       }
     }
   },
-  "Dark Mode": {
+  "Colors/Dark Mode": {
     "Background": {
       "Layer": {
         "00": {
@@ -1181,7 +1181,7 @@
             "type": "color"
           },
           "Hovered": {
-            "value": "$Accent.600",
+            "value": "{Accent.550}",
             "type": "color"
           },
           "Selected": {
@@ -1289,38 +1289,112 @@
       "Decorative": {
         "Parts": {
           "Capability": {
-            "value": "rgba($Decoratives.Voilet.700,0.1)",
+            "value": "rgba({Content.Decorative.Parts.Capability},0.1)",
             "type": "color"
           },
           "Feature": {
-            "value": "rgba($Decoratives.Sky.700,0.1)",
+            "value": "rgba({Content.Decorative.Parts.Feature},0.1)",
+            "type": "color"
+          },
+          "Enhancement": {
+            "value": "rgba({Content.Decorative.Parts.Enhancement},0.1)",
+            "type": "color"
+          },
+          "Product": {
+            "value": "rgba({Content.Decorative.Parts.Product},0.1)",
+            "type": "color"
+          },
+          "API": {
+            "value": "rgba({Content.Decorative.Parts.API},0.1)",
+            "type": "color"
+          },
+          "API-Cluster": {
+            "value": "rgba({Content.Decorative.Parts.API-Cluster},0.1)",
+            "type": "color"
+          },
+          "Runnable": {
+            "value": "rgba({Content.Decorative.Parts.Runnable},0.1)",
+            "type": "color"
+          },
+          "Linkable": {
+            "value": "rgba({Content.Decorative.Parts.Linkable},0.1)",
+            "type": "color"
+          },
+          "Database": {
+            "value": "rgba({Content.Decorative.Parts.Database},0.1)",
+            "type": "color"
+          },
+          "Sub-Feature": {
+            "value": "rgba({Content.Decorative.Parts.Sub-Feature},0.1)",
             "type": "color"
           }
         },
         "Work": {
           "Issue": {
-            "value": "rgba($Decoratives.Blue.700,0.1)",
+            "value": "rgba({Content.Decorative.Work.Issue},0.1)",
             "type": "color"
           },
           "Ticket": {
-            "value": "rgba($Decoratives.Lime.900,0.1)",
+            "value": "rgba({Content.Decorative.Work.Ticket},0.1)",
             "type": "color"
           },
           "Conversation": {
-            "value": "rgba($Decoratives.Orange.700,0.1)",
+            "value": "rgba({Content.Decorative.Work.Conversation},0.1)",
+            "type": "color"
+          }
+        },
+        "Identity": {
+          "Issue": {
+            "value": "rgba({Content.Decorative.Identity.Customer},0.1)",
+            "type": "color"
+          },
+          "Ticket": {
+            "value": "rgba({Content.Decorative.Identity.Developer},0.1)",
             "type": "color"
           }
         }
       },
       "Feedback": {
         "Alert": {
-          "value": "#000",
+          "value": "rgba({Content.Feedback.Alert},0.1)",
+          "type": "color"
+        },
+        "Success": {
+          "value": "rgba({Content.Feedback.Success},0.1)",
+          "type": "color"
+        },
+        "Warning": {
+          "value": "rgba({Content.Feedback.Warning},0.1)",
+          "type": "color"
+        },
+        "Smart": {
+          "value": "rgba({Content.Feedback.Smart},0.1)",
+          "type": "color"
+        },
+        "Neutral": {
+          "value": "rgba({Content.Feedback.Neutral},0.2)",
           "type": "color"
         }
       },
       "Input": {
-        "Alert": {
-          "value": "#000",
+        "Empty": {
+          "value": "{Neutrals.100}",
+          "type": "color"
+        },
+        "Search": {
+          "value": "{Neutrals.120}",
+          "type": "color"
+        },
+        "Checkbox": {
+          "value": "{Accent.500}",
+          "type": "color"
+        },
+        "Toggle": {
+          "value": "{Accent.500}",
+          "type": "color"
+        },
+        "Disabled": {
+          "value": "rgba({Neutrals.900},0.2)",
           "type": "color"
         }
       }
@@ -1333,6 +1407,38 @@
             "type": "color"
           },
           "Feature": {
+            "value": "$Decoratives.Teal.700",
+            "type": "color"
+          },
+          "Enhancement": {
+            "value": "$Decoratives.Sky.700",
+            "type": "color"
+          },
+          "Product": {
+            "value": "$Decoratives.Sky.700",
+            "type": "color"
+          },
+          "API": {
+            "value": "$Decoratives.Sky.700",
+            "type": "color"
+          },
+          "API-Cluster": {
+            "value": "$Decoratives.Sky.700",
+            "type": "color"
+          },
+          "Runnable": {
+            "value": "$Decoratives.Sky.700",
+            "type": "color"
+          },
+          "Linkable": {
+            "value": "$Decoratives.Sky.700",
+            "type": "color"
+          },
+          "Database": {
+            "value": "$Decoratives.Sky.700",
+            "type": "color"
+          },
+          "Sub-Feature": {
             "value": "$Decoratives.Sky.700",
             "type": "color"
           }
@@ -1356,31 +1462,65 @@
             "value": "$Decoratives.Sky.800",
             "type": "color"
           },
-          "Ticket": {
+          "Developer": {
             "value": "$Decoratives.Lime.900",
             "type": "color"
           }
         }
       },
-      "Highlight": {
-        "value": "$Neutrals.1000",
-        "type": "color"
+      "Default": {
+        "Highlight": {
+          "value": "$Neutrals.1000",
+          "type": "color"
+        },
+        "Primary": {
+          "value": "$Neutrals.960",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "$Neutrals.740",
+          "type": "color"
+        },
+        "Tertiary": {
+          "value": "$Neutrals.620",
+          "type": "color"
+        },
+        "Muted": {
+          "value": "$Neutrals.460",
+          "type": "color"
+        }
       },
-      "Primary": {
-        "value": "$Neutrals.960",
-        "type": "color"
+      "Feedback": {
+        "Alert": {
+          "value": "$Alert.650",
+          "type": "color"
+        },
+        "Success": {
+          "value": "$Success.650",
+          "type": "color"
+        },
+        "Warning": {
+          "value": "$Warning.650",
+          "type": "color"
+        },
+        "Smart": {
+          "value": "$Decoratives.Voilet.650",
+          "type": "color"
+        },
+        "Link": {
+          "value": "$Decoratives.Blue.600",
+          "type": "color"
+        },
+        "Neutral": {
+          "value": "$Neutrals.880",
+          "type": "color"
+        }
       },
-      "Secondary": {
-        "value": "$Neutrals.740",
-        "type": "color"
-      },
-      "Tertiary": {
-        "value": "$Neutrals.620",
-        "type": "color"
-      },
-      "Muted": {
-        "value": "$Neutrals.460",
-        "type": "color"
+      "Input": {
+        "Placeholder": {
+          "value": "$Neutrals.460",
+          "type": "color"
+        }
       }
     },
     "Border": {
@@ -1392,7 +1532,7 @@
       }
     }
   },
-  "Light Mode": {
+  "Colors/Light Mode": {
     "Background": {
       "Layer": {
         "00": {
@@ -1432,12 +1572,24 @@
       }
     }
   },
+  "Border/Desktop": {},
+  "Border/Mobile": {},
+  "Scale/Desktop": {},
+  "Scale/Mobile": {},
+  "Dark Themes/Neon": {},
+  "Dark Themes/Ash": {},
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "Core",
-      "Dark Mode",
-      "Light Mode"
+      "Colors/Core",
+      "Colors/Dark Mode",
+      "Colors/Light Mode",
+      "Border/Desktop",
+      "Border/Mobile",
+      "Scale/Desktop",
+      "Scale/Mobile",
+      "Dark Themes/Neon",
+      "Dark Themes/Ash"
     ]
   }
 }
