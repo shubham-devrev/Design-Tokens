@@ -1717,11 +1717,11 @@
         },
         "Checkbox": {
           "Default": {
-            "value": "$Neutrals.300",
+            "value": "$Neutrals.460",
             "type": "color"
           },
           "Hovered": {
-            "value": "$Neutrals.260",
+            "value": "$Neutrals.540",
             "type": "color"
           }
         },
