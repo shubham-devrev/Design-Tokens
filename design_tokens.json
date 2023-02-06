@@ -309,7 +309,7 @@
         "type": "Variables"
       },
       "saturation": {
-        "value": "8%",
+        "value": "0%",
         "type": "Variables"
       }
     },
@@ -1385,20 +1385,30 @@
           "value": "{Neutrals.120}",
           "type": "color"
         },
-        "Checkbox": {
+        "Disabled": {
+          "value": "$Neutrals.120",
+          "type": "color"
+        }
+      },
+      "Select": {
+        "Default": {
+          "value": "{Neutrals.200}",
+          "type": "color"
+        },
+        "Default-Hovered": {
+          "value": "{Neutrals.220}",
+          "type": "color"
+        },
+        "Filled": {
           "value": "{Accent.500}",
           "type": "color"
         },
-        "Toggle": {
-          "value": "{Accent.500}",
-          "type": "color"
-        },
-        "Radio": {
-          "value": "{Accent.500}",
+        "Filled-Hovered": {
+          "value": "{Accent.550}",
           "type": "color"
         },
         "Disabled": {
-          "value": "$Neutrals.120",
+          "value": "{Neutrals.260}",
           "type": "color"
         }
       }
@@ -1406,10 +1416,6 @@
     "Content": {
       "Default": {
         "Highlight": {
-          "value": "$Neutrals.1000",
-          "type": "color"
-        },
-        "Inverted": {
           "value": "$Neutrals.1000",
           "type": "color"
         },
@@ -1427,6 +1433,16 @@
         },
         "Muted": {
           "value": "$Neutrals.460",
+          "type": "color"
+        }
+      },
+      "Static": {
+        "White": {
+          "value": "$Neutrals.1000",
+          "type": "color"
+        },
+        "Black": {
+          "value": "$Neutrals.80",
           "type": "color"
         }
       },
@@ -1541,7 +1557,7 @@
       "Interactive": {
         "Primary": {
           "Default": {
-            "value": "$Content.Default.Highlight",
+            "value": "{Content.Default.Highlight}",
             "type": "color"
           },
           "Disabled": {
@@ -1551,7 +1567,7 @@
         },
         "Secondary": {
           "Default": {
-            "value": "$Content.Default.Highlight",
+            "value": "{Content.Default.Highlight}",
             "type": "color"
           },
           "Disabled": {
@@ -1561,7 +1577,7 @@
         },
         "Tertiary": {
           "Default": {
-            "value": "$Content.Default.Highlight",
+            "value": "{Content.Default.Highlight}",
             "type": "color"
           },
           "Disabled": {
@@ -1575,13 +1591,23 @@
             "type": "color"
           },
           "Selected": {
-            "value": "$Content.Default.Highlight",
+            "value": "{Content.Default.Highlight}",
             "type": "color"
           },
           "Disabled": {
             "value": "$Content.Default.Muted",
             "type": "color"
           }
+        }
+      },
+      "Select": {
+        "Default": {
+          "value": "$Neutrals.1000",
+          "type": "color"
+        },
+        "Disabled": {
+          "value": "$Neutrals.380",
+          "type": "color"
         }
       }
     },
@@ -1714,26 +1740,24 @@
         "Disabled": {
           "value": "$Neutrals.160",
           "type": "color"
+        }
+      },
+      "Select": {
+        "Default": {
+          "value": "{Neutrals.460}",
+          "type": "color"
         },
-        "Checkbox": {
-          "Default": {
-            "value": "$Neutrals.460",
-            "type": "color"
-          },
-          "Hovered": {
-            "value": "$Neutrals.540",
-            "type": "color"
-          }
+        "Hovered": {
+          "value": "$Neutrals.540",
+          "type": "color"
         },
-        "Radio": {
-          "Default": {
-            "value": "$Neutrals.220",
-            "type": "color"
-          },
-          "Hovered": {
-            "value": "$Neutrals.260",
-            "type": "color"
-          }
+        "Filled": {
+          "value": "{Accent.550}",
+          "type": "color"
+        },
+        "Disabled": {
+          "value": "{Neutrals.300}",
+          "type": "color"
         }
       }
     }
