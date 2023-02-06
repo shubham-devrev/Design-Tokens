@@ -1717,7 +1717,7 @@
         },
         "Checkbox": {
           "Default": {
-            "value": "$Neutrals.220",
+            "value": "$Neutrals.300",
             "type": "color"
           },
           "Hovered": {
