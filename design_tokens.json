@@ -1468,7 +1468,7 @@
           "type": "color"
         },
         "Neutral": {
-          "value": "$Neutrals.880",
+          "value": "$Content.Default.Muted",
           "type": "color"
         }
       },
@@ -1577,7 +1577,7 @@
         },
         "Tertiary": {
           "Default": {
-            "value": "{Content.Default.Highlight}",
+            "value": "{Content.Default.Secondary}",
             "type": "color"
           },
           "Disabled": {
@@ -1587,7 +1587,11 @@
         },
         "Flat": {
           "Default": {
-            "value": "$Content.Default.Tertiary",
+            "value": "$Content.Default.Primary",
+            "type": "color"
+          },
+          "Hovered": {
+            "value": "{Content.Default.Highlight}",
             "type": "color"
           },
           "Selected": {
@@ -1758,6 +1762,102 @@
         "Disabled": {
           "value": "{Neutrals.300}",
           "type": "color"
+        }
+      },
+      "Interactive": {
+        "Primary": {
+          "Default": {
+            "value": "$Accent.550",
+            "type": "color"
+          },
+          "Hovered": {
+            "value": "{Accent.550}",
+            "type": "color"
+          },
+          "Selected": {
+            "value": "$Accent.800",
+            "type": "color"
+          },
+          "Disabled": {
+            "value": "rgba($Border.Interactive.Primary.Default,0.2)",
+            "type": "color"
+          }
+        },
+        "Secondary": {
+          "Default": {
+            "value": "$Neutrals.460",
+            "type": "color"
+          },
+          "Hovered": {
+            "value": "$Neutrals.460",
+            "type": "color"
+          },
+          "Selected": {
+            "value": "$Neutrals.540",
+            "type": "color"
+          },
+          "Disabled": {
+            "value": "rgba($Border.Interactive.Secondary.Default,0.2)",
+            "type": "color"
+          }
+        },
+        "Tertiary": {
+          "Default": {
+            "value": "$Neutrals.300",
+            "type": "color"
+          },
+          "Hovered": {
+            "value": "$Neutrals.300",
+            "type": "color"
+          },
+          "Selected": {
+            "value": "$Neutrals.460",
+            "type": "color"
+          },
+          "Disabled": {
+            "value": "rgba($Border.Interactive.Tertiary.Default,0.2)",
+            "type": "color"
+          }
+        },
+        "Flat": {
+          "Default": {
+            "value": "rgba($Neutrals.260,0)",
+            "type": "color"
+          },
+          "Hovered": {
+            "value": "$Neutrals.260",
+            "type": "color"
+          },
+          "Selected": {
+            "value": "$Neutrals.300",
+            "type": "color"
+          },
+          "Focused": {
+            "value": "$Neutrals.300",
+            "type": "color"
+          },
+          "Disabled": {
+            "value": "$Background.Interactive.Flat.Default",
+            "type": "color"
+          }
+        },
+        "Destructive": {
+          "Default": {
+            "value": "$Alert.650",
+            "type": "color"
+          },
+          "Hovered": {
+            "value": "$Alert.650",
+            "type": "color"
+          },
+          "Selected": {
+            "value": "$Alert.750",
+            "type": "color"
+          },
+          "Disabled": {
+            "value": "rgba($Background.Interactive.Destructive.Default,0.2)",
+            "type": "color"
+          }
         }
       }
     }
