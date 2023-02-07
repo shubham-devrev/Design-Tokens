@@ -1221,19 +1221,19 @@
         },
         "Tertiary": {
           "Default": {
-            "value": "$Neutrals.260",
+            "value": "$Neutrals.220",
             "type": "color"
           },
           "Hovered": {
-            "value": "$Neutrals.300",
+            "value": "$Neutrals.260",
             "type": "color"
           },
           "Selected": {
-            "value": "$Neutrals.380",
+            "value": "$Neutrals.200",
             "type": "color"
           },
           "Focused": {
-            "value": "$Neutrals.380",
+            "value": "{Background.Interactive.Tertiary.Default}",
             "type": "color"
           },
           "Disabled": {
@@ -1355,25 +1355,45 @@
         }
       },
       "Feedback": {
-        "Alert": {
-          "value": "rgba({Content.Feedback.Alert},0.1)",
-          "type": "color"
+        "Full": {
+          "Alert": {
+            "value": "{Content.Feedback.Alert}",
+            "type": "color"
+          },
+          "Success": {
+            "value": "{Content.Feedback.Success}",
+            "type": "color"
+          },
+          "Warning": {
+            "value": "{Content.Feedback.Warning}",
+            "type": "color"
+          },
+          "White": {
+            "value": "{Neutrals.1000}",
+            "type": "color"
+          }
         },
-        "Success": {
-          "value": "rgba({Content.Feedback.Success},0.1)",
-          "type": "color"
-        },
-        "Warning": {
-          "value": "rgba({Content.Feedback.Warning},0.1)",
-          "type": "color"
-        },
-        "Smart": {
-          "value": "rgba({Content.Feedback.Smart},0.1)",
-          "type": "color"
-        },
-        "Neutral": {
-          "value": "rgba({Content.Feedback.Neutral},0.2)",
-          "type": "color"
+        "Opacity": {
+          "Alert": {
+            "value": "rgba({Content.Feedback.Alert},0.1)",
+            "type": "color"
+          },
+          "Success": {
+            "value": "rgba({Content.Feedback.Success},0.1)",
+            "type": "color"
+          },
+          "Warning": {
+            "value": "rgba({Content.Feedback.Warning},0.1)",
+            "type": "color"
+          },
+          "Smart": {
+            "value": "rgba({Content.Feedback.Smart},0.1)",
+            "type": "color"
+          },
+          "Neutral": {
+            "value": "rgba({Content.Feedback.Neutral},0.1)",
+            "type": "color"
+          }
         }
       },
       "Input": {
@@ -1381,12 +1401,26 @@
           "value": "{Neutrals.100}",
           "type": "color"
         },
-        "Search": {
+        "Disabled": {
+          "value": "$Neutrals.120",
+          "type": "color"
+        }
+      },
+      "Search": {
+        "Default": {
           "value": "{Neutrals.120}",
           "type": "color"
         },
-        "Disabled": {
-          "value": "$Neutrals.120",
+        "Hovered": {
+          "value": "{Neutrals.140}",
+          "type": "color"
+        },
+        "Pressed": {
+          "value": "{Neutrals.100}",
+          "type": "color"
+        },
+        "Focused": {
+          "value": "{Neutrals.120}",
           "type": "color"
         }
       },
@@ -1468,7 +1502,7 @@
           "type": "color"
         },
         "Neutral": {
-          "value": "$Content.Default.Muted",
+          "value": "$Content.Default.Tertiary",
           "type": "color"
         }
       },
@@ -1626,7 +1660,7 @@
           "type": "color"
         },
         "Focused": {
-          "value": "$Neutrals.900",
+          "value": "$Neutrals.800",
           "type": "color"
         },
         "Disabled": {
@@ -1656,7 +1690,7 @@
           "type": "color"
         },
         "Neutral": {
-          "value": "$Neutrals.880",
+          "value": "rgba({Content.Feedback.Neutral},0.1)",
           "type": "color"
         }
       },
