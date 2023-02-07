@@ -1670,23 +1670,23 @@
       },
       "Feedback": {
         "Alert": {
-          "value": "$Alert.650",
+          "value": "$Alert.750",
           "type": "color"
         },
         "Success": {
-          "value": "$Success.650",
+          "value": "$Success.750",
           "type": "color"
         },
         "Warning": {
-          "value": "$Warning.650",
+          "value": "$Warning.750",
           "type": "color"
         },
         "Smart": {
-          "value": "$Decoratives.Voilet.650",
+          "value": "$Decoratives.Voilet.750",
           "type": "color"
         },
         "Link": {
-          "value": "$Decoratives.Blue.600",
+          "value": "$Decoratives.Blue.700",
           "type": "color"
         },
         "Neutral": {
