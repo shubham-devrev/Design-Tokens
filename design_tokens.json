@@ -2,39 +2,39 @@
   "Colors/Core": {
     "Accent": {
       "100": {
-        "value": "hsla({Accent.hue}, {Accent.saturation}%, 10%, 1)",
+        "value": "hsla({Accent.hue}, {Accent.saturation}%, 26%, 1)",
         "type": "color"
       },
       "200": {
-        "value": "hsla({Accent.hue}, {Accent.saturation}%, 20%, 1)",
+        "value": "hsla({Accent.hue}, {Accent.saturation}%, 33%, 1)",
         "type": "color"
       },
       "300": {
-        "value": "hsla({Accent.hue}, {Accent.saturation}%, 30%, 1)",
-        "type": "color"
-      },
-      "400": {
         "value": "hsla({Accent.hue}, {Accent.saturation}%, 40%, 1)",
         "type": "color"
       },
+      "400": {
+        "value": "hsla({Accent.hue}, {Accent.saturation}%, 47%, 1)",
+        "type": "color"
+      },
       "500": {
-        "value": "hsla({Accent.hue}, {Accent.saturation}%, 50%, 1)",
+        "value": "hsla({Accent.hue}, {Accent.saturation}%, 54%, 1)",
         "type": "color"
       },
       "600": {
-        "value": "hsla({Accent.hue}, {Accent.saturation}%, 55%, 1)",
+        "value": "hsla({Accent.hue}, {Accent.saturation}%, 61%, 1)",
         "type": "color"
       },
       "700": {
-        "value": "hsla({Accent.hue}, {Accent.saturation}%, 70%, 1)",
+        "value": "hsla({Accent.hue}, {Accent.saturation}%, 69%, 1)",
         "type": "color"
       },
       "800": {
-        "value": "hsla({Accent.hue}, {Accent.saturation}%, 80%, 1)",
+        "value": "hsla({Accent.hue}, {Accent.saturation}%, 76%, 1)",
         "type": "color"
       },
       "900": {
-        "value": "hsla({Accent.hue}, {Accent.saturation}%, 90%, 1)",
+        "value": "hsla({Accent.hue}, {Accent.saturation}%, 81%, 1)",
         "type": "color"
       },
       "hue": {
@@ -43,7 +43,7 @@
         "description": "Accent color used to control theming"
       },
       "saturation": {
-        "value": "76",
+        "value": "92",
         "type": "Variables"
       }
     },
@@ -142,48 +142,48 @@
       }
     },
     "Alert": {
-      "150": {
-        "value": "hsla({Alert.hue}, {Alert.saturation}%, 15%, 1)",
+      "100": {
+        "value": "hsla({Alert.hue}, {Alert.saturation}%, 22%, 1)",
         "type": "color"
       },
-      "250": {
-        "value": "hsla({Alert.hue}, {Alert.saturation}%, 25%, 1)",
+      "200": {
+        "value": "hsla({Alert.hue}, {Alert.saturation}%, 29%, 1)",
         "type": "color"
       },
-      "350": {
-        "value": "hsla({Alert.hue}, {Alert.saturation}%, 35%, 1)",
+      "300": {
+        "value": "hsla({Alert.hue}, {Alert.saturation}%, 36%, 1)",
         "type": "color"
       },
-      "450": {
-        "value": "hsla({Alert.hue}, {Alert.saturation}%, 45%, 1)",
+      "400": {
+        "value": "hsla({Alert.hue}, {Alert.saturation}%, 43%, 1)",
         "type": "color"
       },
-      "550": {
-        "value": "hsla({Alert.hue}, {Alert.saturation}%, 55%, 1)",
+      "500": {
+        "value": "hsla({Alert.hue}, {Alert.saturation}%, 50%, 1)",
         "type": "color"
       },
-      "650": {
-        "value": "hsla({Alert.hue}, {Alert.saturation}%, 65%, 1)",
+      "600": {
+        "value": "hsla({Alert.hue}, {Alert.saturation}%, 60%, 1)",
         "type": "color"
       },
-      "750": {
-        "value": "hsla({Alert.hue}, {Alert.saturation}%, 75%, 1)",
+      "700": {
+        "value": "hsla({Alert.hue}, {Alert.saturation}%, 64%, 1)",
         "type": "color"
       },
-      "850": {
-        "value": "hsla({Alert.hue}, {Alert.saturation}%, 85%, 1)",
+      "800": {
+        "value": "hsla({Alert.hue}, {Alert.saturation}%, 71%, 1)",
         "type": "color"
       },
       "950": {
-        "value": "hsla({Alert.hue}, {Alert.saturation}%, 95%, 1)",
+        "value": "hsla({Alert.hue}, {Alert.saturation}%, 78%, 1)",
         "type": "color"
       },
       "hue": {
-        "value": "360",
+        "value": "352",
         "type": "Variables"
       },
       "saturation": {
-        "value": "66",
+        "value": "90",
         "type": "Variables"
       }
     },
@@ -1247,15 +1247,15 @@
             "type": "color"
           },
           "Hovered": {
-            "value": "$Neutrals.180",
-            "type": "color"
-          },
-          "Selected": {
             "value": "$Neutrals.200",
             "type": "color"
           },
+          "Selected": {
+            "value": "$Neutrals.260",
+            "type": "color"
+          },
           "Focused": {
-            "value": "$Neutrals.180",
+            "value": "$Neutrals.200",
             "type": "color"
           },
           "Disabled": {
@@ -1265,19 +1265,19 @@
         },
         "Destructive": {
           "Default": {
-            "value": "$Alert.550",
+            "value": "{Alert.500}",
             "type": "color"
           },
           "Hovered": {
-            "value": "$Alert.650",
+            "value": "{Alert.600}",
             "type": "color"
           },
           "Selected": {
-            "value": "$Alert.750",
+            "value": "{Alert.700}",
             "type": "color"
           },
           "Focused": {
-            "value": "$Alert.750",
+            "value": "{Alert.500}",
             "type": "color"
           },
           "Disabled": {
@@ -1482,7 +1482,7 @@
       },
       "Feedback": {
         "Alert": {
-          "value": "$Alert.650",
+          "value": "{Alert.600}",
           "type": "color"
         },
         "Success": {
@@ -1652,11 +1652,11 @@
     "Border": {
       "Default": {
         "Outline": {
-          "value": "$Neutrals.180",
+          "value": "$Neutrals.220",
           "type": "color"
         },
         "Hovered": {
-          "value": "$Neutrals.300",
+          "value": "$Neutrals.260",
           "type": "color"
         },
         "Focused": {
@@ -1670,7 +1670,7 @@
       },
       "Feedback": {
         "Alert": {
-          "value": "$Alert.650",
+          "value": "{Alert.600}",
           "type": "color"
         },
         "Success": {
@@ -1859,15 +1859,15 @@
         },
         "Tertiary": {
           "Default": {
-            "value": "$Neutrals.300",
+            "value": "$Neutrals.200",
             "type": "color"
           },
           "Hovered": {
-            "value": "$Neutrals.300",
+            "value": "$Neutrals.220",
             "type": "color"
           },
           "Selected": {
-            "value": "$Neutrals.460",
+            "value": "$Neutrals.260",
             "type": "color"
           },
           "Disabled": {
@@ -1899,15 +1899,15 @@
         },
         "Destructive": {
           "Default": {
-            "value": "$Alert.650",
+            "value": "{Alert.600}",
             "type": "color"
           },
           "Hovered": {
-            "value": "$Alert.650",
+            "value": "{Alert.700}",
             "type": "color"
           },
           "Selected": {
-            "value": "$Alert.750",
+            "value": "{Alert.800}",
             "type": "color"
           },
           "Disabled": {
@@ -2041,19 +2041,19 @@
         },
         "Destructive": {
           "Default": {
-            "value": "$Alert.550",
+            "value": "{Alert.500}",
             "type": "color"
           },
           "Hovered": {
-            "value": "$Alert.650",
+            "value": "{Alert.600}",
             "type": "color"
           },
           "Selected": {
-            "value": "$Alert.750",
+            "value": "{Alert.700}",
             "type": "color"
           },
           "Focused": {
-            "value": "$Alert.750",
+            "value": "{Alert.700}",
             "type": "color"
           },
           "Disabled": {
@@ -2246,7 +2246,7 @@
       },
       "Feedback": {
         "Alert": {
-          "value": "$Alert.650",
+          "value": "{Alert.600}",
           "type": "color"
         },
         "Success": {
@@ -2434,7 +2434,7 @@
       },
       "Feedback": {
         "Alert": {
-          "value": "$Alert.750",
+          "value": "{Alert.700}",
           "type": "color"
         },
         "Success": {
@@ -2663,15 +2663,15 @@
         },
         "Destructive": {
           "Default": {
-            "value": "$Alert.650",
+            "value": "{Alert.600}",
             "type": "color"
           },
           "Hovered": {
-            "value": "$Alert.650",
+            "value": "{Alert.600}",
             "type": "color"
           },
           "Selected": {
-            "value": "$Alert.750",
+            "value": "{Alert.700}",
             "type": "color"
           },
           "Disabled": {
@@ -2805,19 +2805,19 @@
         },
         "Destructive": {
           "Default": {
-            "value": "$Alert.450",
+            "value": "{Alert.400}",
             "type": "color"
           },
           "Hovered": {
-            "value": "$Alert.350",
+            "value": "{Alert.300}",
             "type": "color"
           },
           "Selected": {
-            "value": "$Alert.250",
+            "value": "{Alert.200}",
             "type": "color"
           },
           "Focused": {
-            "value": "$Alert.250",
+            "value": "{Alert.200}",
             "type": "color"
           },
           "Disabled": {
@@ -2972,7 +2972,7 @@
       },
       "Feedback": {
         "Alert": {
-          "value": "$Alert.650",
+          "value": "{Alert.600}",
           "type": "color"
         },
         "Success": {
@@ -3146,7 +3146,7 @@
       },
       "Feedback": {
         "Alert": {
-          "value": "$Alert.450",
+          "value": "{Alert.400}",
           "type": "color"
         },
         "Success": {
