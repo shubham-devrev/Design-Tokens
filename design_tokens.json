@@ -174,7 +174,7 @@
         "value": "hsla({Alert.hue}, {Alert.saturation}%, 71%, 1)",
         "type": "color"
       },
-      "950": {
+      "900": {
         "value": "hsla({Alert.hue}, {Alert.saturation}%, 78%, 1)",
         "type": "color"
       },
@@ -220,7 +220,15 @@
         "value": "hsla({Neutrals.hue},8% ,22%,1)",
         "type": "color"
       },
+      "240": {
+        "value": "hsla({Neutrals.hue},8% ,24%,1)",
+        "type": "color"
+      },
       "260": {
+        "value": "hsla({Neutrals.hue},9%,26%,1)",
+        "type": "color"
+      },
+      "280": {
         "value": "hsla({Neutrals.hue},9%,26%,1)",
         "type": "color"
       },
