@@ -43,7 +43,7 @@
         "description": "Accent color used to control theming"
       },
       "saturation": {
-        "value": "92",
+        "value": "84",
         "type": "Variables"
       }
     },
@@ -236,6 +236,10 @@
         "value": "hsla({Neutrals.hue},8%,30%,1)",
         "type": "color"
       },
+      "340": {
+        "value": "hsla({Neutrals.hue},8%,34%,1)",
+        "type": "color"
+      },
       "380": {
         "value": "hsla({Neutrals.hue}, 7%,38%,1)",
         "type": "color"
@@ -313,7 +317,7 @@
         "type": "color"
       },
       "hue": {
-        "value": "{Accent.hue}",
+        "value": "218",
         "type": "Variables"
       },
       "saturation": {
@@ -1405,12 +1409,16 @@
         }
       },
       "Input": {
-        "Empty": {
+        "Default": {
           "value": "{Neutrals.100}",
           "type": "color"
         },
+        "Typing": {
+          "value": "{Neutrals.80}",
+          "type": "color"
+        },
         "Disabled": {
-          "value": "$Neutrals.120",
+          "value": "$Neutrals.140",
           "type": "color"
         }
       },
@@ -1592,7 +1600,7 @@
           "type": "color"
         },
         "Disabled": {
-          "value": "$Content.Default.Muted",
+          "value": "$Neutrals.380",
           "type": "color"
         }
       },
@@ -1670,15 +1678,11 @@
         "Focused": {
           "value": "$Neutrals.800",
           "type": "color"
-        },
-        "Disabled": {
-          "value": "$Neutrals.120",
-          "type": "color"
         }
       },
       "Feedback": {
         "Alert": {
-          "value": "{Alert.600}",
+          "value": "{Alert.700}",
           "type": "color"
         },
         "Success": {
@@ -1698,7 +1702,7 @@
           "type": "color"
         },
         "Neutral": {
-          "value": "rgba({Content.Feedback.Neutral},0.1)",
+          "value": "rgba({Content.Feedback.Neutral},0.2)",
           "type": "color"
         },
         "Opacity": {
@@ -1793,16 +1797,16 @@
         }
       },
       "Input": {
-        "Empty": {
+        "Default": {
           "value": "$Neutrals.220",
           "type": "color"
         },
         "Hovered": {
-          "value": "$Neutrals.300",
+          "value": "$Neutrals.260",
           "type": "color"
         },
-        "Focused": {
-          "value": "$Neutrals.380",
+        "Selected": {
+          "value": "$Neutrals.340",
           "type": "color"
         },
         "Disabled": {
@@ -1871,11 +1875,11 @@
             "type": "color"
           },
           "Hovered": {
-            "value": "$Neutrals.220",
+            "value": "$Neutrals.240",
             "type": "color"
           },
           "Selected": {
-            "value": "$Neutrals.260",
+            "value": "$Neutrals.280",
             "type": "color"
           },
           "Disabled": {
