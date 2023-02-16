@@ -189,103 +189,103 @@
     },
     "Neutrals": {
       "80": {
-        "value": "hsla({Neutrals.hue}, 12% ,8%,1)",
+        "value": "hsla({Neutrals.hue}, 4% ,8%,1)",
         "type": "color"
       },
       "100": {
-        "value": "hsla({Neutrals.hue}, 12% ,10%,1)",
+        "value": "hsla({Neutrals.hue}, 4% ,10%,1)",
         "type": "color"
       },
       "120": {
-        "value": "hsla({Neutrals.hue}, 11% ,12%,1)",
+        "value": "hsla({Neutrals.hue}, 3% ,12%,1)",
         "type": "color"
       },
       "140": {
-        "value": "hsla({Neutrals.hue}, 11%,14%,1)",
+        "value": "hsla({Neutrals.hue}, 3%,14%,1)",
         "type": "color"
       },
       "160": {
-        "value": "hsla({Neutrals.hue}, 10%,16%,1)",
+        "value": "hsla({Neutrals.hue}, 2%,16%,1)",
         "type": "color"
       },
       "180": {
-        "value": "hsla({Neutrals.hue}, 10% ,18%,1)",
+        "value": "hsla({Neutrals.hue}, 2% ,18%,1)",
         "type": "color"
       },
       "200": {
-        "value": "hsla({Neutrals.hue}, 8%,20%,1)",
+        "value": "hsla({Neutrals.hue}, 2%,20%,1)",
         "type": "color"
       },
       "220": {
-        "value": "hsla({Neutrals.hue},8% ,22%,1)",
+        "value": "hsla({Neutrals.hue},2% ,22%,1)",
         "type": "color"
       },
       "240": {
-        "value": "hsla({Neutrals.hue},8% ,24%,1)",
+        "value": "hsla({Neutrals.hue},2% ,24%,1)",
         "type": "color"
       },
       "260": {
-        "value": "hsla({Neutrals.hue},9%,26%,1)",
+        "value": "hsla({Neutrals.hue},2%,26%,1)",
         "type": "color"
       },
       "280": {
-        "value": "hsla({Neutrals.hue},9%,26%,1)",
+        "value": "hsla({Neutrals.hue},2%,26%,1)",
         "type": "color"
       },
       "300": {
-        "value": "hsla({Neutrals.hue},8%,30%,1)",
+        "value": "hsla({Neutrals.hue},2%,30%,1)",
         "type": "color"
       },
       "340": {
-        "value": "hsla({Neutrals.hue},8%,34%,1)",
+        "value": "hsla({Neutrals.hue},2%,34%,1)",
         "type": "color"
       },
       "380": {
-        "value": "hsla({Neutrals.hue}, 7%,38%,1)",
+        "value": "hsla({Neutrals.hue}, 2%,38%,1)",
         "type": "color"
       },
       "460": {
-        "value": "hsla({Neutrals.hue},7%,46%,1)",
+        "value": "hsla({Neutrals.hue},2%,46%,1)",
         "type": "color"
       },
       "500": {
-        "value": "hsla({Neutrals.hue}, 5% ,50%,1)",
+        "value": "hsla({Neutrals.hue}, 2% ,50%,1)",
         "type": "color"
       },
       "540": {
-        "value": "hsla({Neutrals.hue},5%,54%,1)",
+        "value": "hsla({Neutrals.hue},2%,54%,1)",
         "type": "color"
       },
       "620": {
-        "value": "hsla({Neutrals.hue},5%,62%,1)",
+        "value": "hsla({Neutrals.hue},2%,62%,1)",
         "type": "color"
       },
       "700": {
-        "value": "hsla({Neutrals.hue},4%,70%,1)",
+        "value": "hsla({Neutrals.hue},2%,70%,1)",
         "type": "color"
       },
       "740": {
-        "value": "hsla({Neutrals.hue}, 4%,74%,1)",
+        "value": "hsla({Neutrals.hue}, 2%,74%,1)",
         "type": "color"
       },
       "780": {
-        "value": "hsla({Neutrals.hue}, 4% ,78%,1)",
+        "value": "hsla({Neutrals.hue}, 2% ,78%,1)",
         "type": "color"
       },
       "800": {
-        "value": "hsla({Neutrals.hue}, 4%,80%,1)",
+        "value": "hsla({Neutrals.hue}, 2%,80%,1)",
         "type": "color"
       },
       "820": {
-        "value": "hsla({Neutrals.hue}, 4% ,82%,1)",
+        "value": "hsla({Neutrals.hue}, 2% ,82%,1)",
         "type": "color"
       },
       "840": {
-        "value": "hsla({Neutrals.hue}, 4%,84%,1)",
+        "value": "hsla({Neutrals.hue}, 2%,84%,1)",
         "type": "color"
       },
       "860": {
-        "value": "hsla({Neutrals.hue}, 3% ,86%,1)",
+        "value": "hsla({Neutrals.hue}, 2% ,86%,1)",
         "type": "color"
       },
       "880": {
@@ -317,7 +317,7 @@
         "type": "color"
       },
       "hue": {
-        "value": "218",
+        "value": "220",
         "type": "Variables"
       },
       "saturation": {
