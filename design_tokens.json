@@ -38,12 +38,12 @@
         "type": "color"
       },
       "hue": {
-        "value": "224",
+        "value": "236",
         "type": "Variables",
         "description": "Accent color used to control theming"
       },
       "saturation": {
-        "value": "84",
+        "value": "76",
         "type": "Variables"
       }
     },
@@ -189,139 +189,139 @@
     },
     "Neutrals": {
       "80": {
-        "value": "hsla({Neutrals.hue}, 4% ,8%,1)",
+        "value": "hsla({Neutrals.hue}, {Neutrals.saturation} ,8%,1)",
         "type": "color"
       },
       "100": {
-        "value": "hsla({Neutrals.hue}, 4% ,10%,1)",
+        "value": "hsla({Neutrals.hue}, {Neutrals.saturation}  ,10%,1)",
         "type": "color"
       },
       "120": {
-        "value": "hsla({Neutrals.hue}, 3% ,12%,1)",
+        "value": "hsla({Neutrals.hue}, {Neutrals.saturation}  ,12%,1)",
         "type": "color"
       },
       "140": {
-        "value": "hsla({Neutrals.hue}, 3%,14%,1)",
+        "value": "hsla({Neutrals.hue},{Neutrals.saturation} ,14%,1)",
         "type": "color"
       },
       "160": {
-        "value": "hsla({Neutrals.hue}, 2%,16%,1)",
+        "value": "hsla({Neutrals.hue}, {Neutrals.saturation} ,16%,1)",
         "type": "color"
       },
       "180": {
-        "value": "hsla({Neutrals.hue}, 2% ,18%,1)",
+        "value": "hsla({Neutrals.hue}, {Neutrals.saturation}  ,18%,1)",
         "type": "color"
       },
       "200": {
-        "value": "hsla({Neutrals.hue}, 2%,20%,1)",
+        "value": "hsla({Neutrals.hue}, {Neutrals.saturation} ,20%,1)",
         "type": "color"
       },
       "220": {
-        "value": "hsla({Neutrals.hue},2% ,22%,1)",
+        "value": "hsla({Neutrals.hue},{Neutrals.saturation}  ,22%,1)",
         "type": "color"
       },
       "240": {
-        "value": "hsla({Neutrals.hue},2% ,24%,1)",
+        "value": "hsla({Neutrals.hue},{Neutrals.saturation}  ,24%,1)",
         "type": "color"
       },
       "260": {
-        "value": "hsla({Neutrals.hue},2%,26%,1)",
+        "value": "hsla({Neutrals.hue},{Neutrals.saturation} ,26%,1)",
         "type": "color"
       },
       "280": {
-        "value": "hsla({Neutrals.hue},2%,26%,1)",
+        "value": "hsla({Neutrals.hue},{Neutrals.saturation} ,26%,1)",
         "type": "color"
       },
       "300": {
-        "value": "hsla({Neutrals.hue},2%,30%,1)",
+        "value": "hsla({Neutrals.hue},{Neutrals.saturation} ,30%,1)",
         "type": "color"
       },
       "340": {
-        "value": "hsla({Neutrals.hue},2%,34%,1)",
+        "value": "hsla({Neutrals.hue},{Neutrals.saturation} ,34%,1)",
         "type": "color"
       },
       "380": {
-        "value": "hsla({Neutrals.hue}, 2%,38%,1)",
+        "value": "hsla({Neutrals.hue}, {Neutrals.saturation} ,38%,1)",
         "type": "color"
       },
       "460": {
-        "value": "hsla({Neutrals.hue},2%,46%,1)",
+        "value": "hsla({Neutrals.hue},{Neutrals.saturation} ,46%,1)",
         "type": "color"
       },
       "500": {
-        "value": "hsla({Neutrals.hue}, 2% ,50%,1)",
+        "value": "hsla({Neutrals.hue}, {Neutrals.saturation}  ,50%,1)",
         "type": "color"
       },
       "540": {
-        "value": "hsla({Neutrals.hue},2%,54%,1)",
+        "value": "hsla({Neutrals.hue},{Neutrals.saturation} ,54%,1)",
         "type": "color"
       },
       "620": {
-        "value": "hsla({Neutrals.hue},2%,62%,1)",
+        "value": "hsla({Neutrals.hue},{Neutrals.saturation} ,62%,1)",
         "type": "color"
       },
       "700": {
-        "value": "hsla({Neutrals.hue},2%,70%,1)",
+        "value": "hsla({Neutrals.hue},{Neutrals.saturation} ,70%,1)",
         "type": "color"
       },
       "740": {
-        "value": "hsla({Neutrals.hue}, 2%,74%,1)",
+        "value": "hsla({Neutrals.hue}, {Neutrals.saturation} ,74%,1)",
         "type": "color"
       },
       "780": {
-        "value": "hsla({Neutrals.hue}, 2% ,78%,1)",
+        "value": "hsla({Neutrals.hue},{Neutrals.saturation}  ,78%,1)",
         "type": "color"
       },
       "800": {
-        "value": "hsla({Neutrals.hue}, 2%,80%,1)",
+        "value": "hsla({Neutrals.hue}, {Neutrals.saturation} ,80%,1)",
         "type": "color"
       },
       "820": {
-        "value": "hsla({Neutrals.hue}, 2% ,82%,1)",
+        "value": "hsla({Neutrals.hue}, {Neutrals.saturation}  ,82%,1)",
         "type": "color"
       },
       "840": {
-        "value": "hsla({Neutrals.hue}, 2%,84%,1)",
+        "value": "hsla({Neutrals.hue},{Neutrals.saturation} ,84%,1)",
         "type": "color"
       },
       "860": {
-        "value": "hsla({Neutrals.hue}, 2% ,86%,1)",
+        "value": "hsla({Neutrals.hue},{Neutrals.saturation}  ,86%,1)",
         "type": "color"
       },
       "880": {
-        "value": "hsla({Neutrals.hue}, 3% ,88%,1)",
+        "value": "hsla({Neutrals.hue}, {Neutrals.saturation}  ,88%,1)",
         "type": "color"
       },
       "900": {
-        "value": "hsla({Neutrals.hue},3%,90%,1)",
+        "value": "hsla({Neutrals.hue},{Neutrals.saturation} ,90%,1)",
         "type": "color"
       },
       "920": {
-        "value": "hsla({Neutrals.hue}, 3% ,92%,1)",
+        "value": "hsla({Neutrals.hue},{Neutrals.saturation}  ,92%,1)",
         "type": "color"
       },
       "940": {
-        "value": "hsla({Neutrals.hue}, 3% ,94%,1)",
+        "value": "hsla({Neutrals.hue}, {Neutrals.saturation}  ,94%,1)",
         "type": "color"
       },
       "960": {
-        "value": "hsla({Neutrals.hue},2%,96%,1)",
+        "value": "hsla({Neutrals.hue},{Neutrals.saturation} ,96%,1)",
         "type": "color"
       },
       "980": {
-        "value": "hsla({Neutrals.hue}, 2% ,98%,1)",
+        "value": "hsla({Neutrals.hue}, {Neutrals.saturation}  ,98%,1)",
         "type": "color"
       },
       "1000": {
-        "value": "hsla({Neutrals.hue},0%,100%,1)",
+        "value": "hsla({Neutrals.hue},{Neutrals.saturation} ,100%,1)",
         "type": "color"
       },
       "hue": {
-        "value": "220",
+        "value": "240",
         "type": "Variables"
       },
       "saturation": {
-        "value": "0%",
+        "value": "8%",
         "type": "Variables"
       }
     },
