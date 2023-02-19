@@ -1470,11 +1470,11 @@
           "type": "color"
         },
         "Primary": {
-          "value": "$Neutrals.960",
+          "value": "$Neutrals.940",
           "type": "color"
         },
         "Secondary": {
-          "value": "$Neutrals.740",
+          "value": "$Neutrals.780",
           "type": "color"
         },
         "Tertiary": {
@@ -1482,7 +1482,7 @@
           "type": "color"
         },
         "Muted": {
-          "value": "$Neutrals.460",
+          "value": "$Neutrals.380",
           "type": "color"
         }
       },
