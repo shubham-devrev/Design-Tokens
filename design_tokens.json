@@ -1233,28 +1233,6 @@
         },
         "Tertiary": {
           "Default": {
-            "value": "$Neutrals.220",
-            "type": "color"
-          },
-          "Hovered": {
-            "value": "$Neutrals.260",
-            "type": "color"
-          },
-          "Selected": {
-            "value": "$Neutrals.300",
-            "type": "color"
-          },
-          "Focused": {
-            "value": "{Background.Interactive.Tertiary.Default}",
-            "type": "color"
-          },
-          "Disabled": {
-            "value": "rgba($Background.Interactive.Tertiary.Default,0.2)",
-            "type": "color"
-          }
-        },
-        "Flat": {
-          "Default": {
             "value": "rgba($Neutrals.260,0)",
             "type": "color"
           },
@@ -1271,7 +1249,7 @@
             "type": "color"
           },
           "Disabled": {
-            "value": "$Background.Interactive.Flat.Default",
+            "value": "{Background.Interactive.Tertiary.Default}",
             "type": "color"
           }
         },
@@ -1871,24 +1849,6 @@
         },
         "Tertiary": {
           "Default": {
-            "value": "$Neutrals.200",
-            "type": "color"
-          },
-          "Hovered": {
-            "value": "$Neutrals.240",
-            "type": "color"
-          },
-          "Selected": {
-            "value": "$Neutrals.280",
-            "type": "color"
-          },
-          "Disabled": {
-            "value": "rgba($Border.Interactive.Tertiary.Default,0.2)",
-            "type": "color"
-          }
-        },
-        "Flat": {
-          "Default": {
             "value": "rgba($Neutrals.260,0)",
             "type": "color"
           },
@@ -1905,7 +1865,7 @@
             "type": "color"
           },
           "Disabled": {
-            "value": "$Background.Interactive.Flat.Default",
+            "value": "{Background.Interactive.Tertiary.Default}",
             "type": "color"
           }
         },
@@ -2047,7 +2007,7 @@
             "type": "color"
           },
           "Disabled": {
-            "value": "$Background.Interactive.Flat.Default",
+            "value": "{Background.Interactive.Tertiary.Default}",
             "type": "color"
           }
         },
@@ -2669,7 +2629,7 @@
             "type": "color"
           },
           "Disabled": {
-            "value": "$Background.Interactive.Flat.Default",
+            "value": "{Background.Interactive.Tertiary.Default}",
             "type": "color"
           }
         },
@@ -2811,7 +2771,7 @@
             "type": "color"
           },
           "Disabled": {
-            "value": "$Background.Interactive.Flat.Default",
+            "value": "{Background.Interactive.Tertiary.Default}",
             "type": "color"
           }
         },
