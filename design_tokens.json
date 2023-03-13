@@ -2487,15 +2487,15 @@
           "type": "color"
         },
         "Success": {
-          "value": "$Success.650",
+          "value": "$Success.450",
           "type": "color"
         },
         "Warning": {
-          "value": "$Warning.650",
+          "value": "$Warning.450",
           "type": "color"
         },
         "Smart": {
-          "value": "$Decoratives.Voilet.750",
+          "value": "$Decoratives.Voilet.700",
           "type": "color"
         },
         "Link": {
@@ -2707,11 +2707,11 @@
           "type": "color"
         },
         "Success": {
-          "value": "$Success.750",
+          "value": "$Success.550",
           "type": "color"
         },
         "Warning": {
-          "value": "$Warning.750",
+          "value": "$Warning.550",
           "type": "color"
         },
         "Smart": {
