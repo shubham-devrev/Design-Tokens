@@ -1976,6 +1976,149 @@
           }
         }
       }
+    },
+    "Interactive": {
+      "Pressed": {
+        "value": {
+          "x": "0",
+          "y": "2",
+          "blur": "0",
+          "spread": "0",
+          "color": "rgba({Neutrals.120},0.05)",
+          "type": "innerShadow"
+        },
+        "type": "boxShadow",
+        "description": "Buttons"
+      },
+      "Resting": {
+        "value": {
+          "x": "0",
+          "y": "1",
+          "blur": "2",
+          "spread": "0",
+          "color": "rgba({Accent.100},0.05)",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "Lifted": {
+        "value": {
+          "x": "0",
+          "y": "2",
+          "blur": "8",
+          "spread": "0",
+          "color": "rgba({Accent.100},0.08)",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "Focused": {
+        "value": [
+          {
+            "color": "rgba({Accent.600},0.2)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "5"
+          },
+          {
+            "color": "{Accent.600}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "2"
+          }
+        ],
+        "type": "boxShadow"
+      }
+    },
+    "Depth": {
+      "01": {
+        "value": [
+          {
+            "color": "rgba({Accent.100},0.25)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "0",
+            "blur": "1",
+            "spread": "0"
+          },
+          {
+            "color": "rgba({Accent.100},0.05)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "2",
+            "blur": "1",
+            "spread": "0"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "02": {
+        "value": [
+          {
+            "color": "rgba({Accent.100},0.1)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "2",
+            "blur": "10",
+            "spread": "0"
+          },
+          {
+            "color": "rgba({Accent.100},0.20)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "0",
+            "blur": "2",
+            "spread": "0"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "03": {
+        "value": [
+          {
+            "color": "rgba({Accent.100},0.1)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "1"
+          },
+          {
+            "color": "rgba({Accent.100},0.08)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "2",
+            "blur": "16",
+            "spread": "0"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "04": {
+        "value": [
+          {
+            "color": "rgba({Accent.100},0.20)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "0",
+            "blur": "1",
+            "spread": "0"
+          },
+          {
+            "color": "rgba({Accent.100},0.20)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "26",
+            "blur": "80",
+            "spread": "0"
+          }
+        ],
+        "type": "boxShadow"
+      }
     }
   },
   "Colors/Light": {
@@ -2799,6 +2942,149 @@
             "type": "color"
           }
         }
+      }
+    },
+    "Interactive": {
+      "Pressed": {
+        "value": {
+          "x": "0",
+          "y": "2",
+          "blur": "0",
+          "spread": "0",
+          "color": "rgba({Neutrals.120},0.05)",
+          "type": "innerShadow"
+        },
+        "type": "boxShadow",
+        "description": "Buttons"
+      },
+      "Resting": {
+        "value": {
+          "x": "0",
+          "y": "1",
+          "blur": "2",
+          "spread": "0",
+          "color": "rgba({Accent.100},0.05)",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "Lifted": {
+        "value": {
+          "x": "0",
+          "y": "2",
+          "blur": "8",
+          "spread": "0",
+          "color": "rgba({Accent.100},0.08)",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "Focused": {
+        "value": [
+          {
+            "color": "rgba({Accent.600},0.2)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "5"
+          },
+          {
+            "color": "{Accent.600}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "2"
+          }
+        ],
+        "type": "boxShadow"
+      }
+    },
+    "Depth": {
+      "01": {
+        "value": [
+          {
+            "color": "rgba({Accent.100},0.25)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "0",
+            "blur": "1",
+            "spread": "0"
+          },
+          {
+            "color": "rgba({Accent.100},0.05)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "2",
+            "blur": "1",
+            "spread": "0"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "02": {
+        "value": [
+          {
+            "color": "rgba({Accent.100},0.1)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "2",
+            "blur": "10",
+            "spread": "0"
+          },
+          {
+            "color": "rgba({Accent.100},0.20)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "0",
+            "blur": "2",
+            "spread": "0"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "03": {
+        "value": [
+          {
+            "color": "rgba({Accent.100},0.1)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "1"
+          },
+          {
+            "color": "rgba({Accent.100},0.08)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "2",
+            "blur": "16",
+            "spread": "0"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "04": {
+        "value": [
+          {
+            "color": "rgba({Accent.100},0.20)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "0",
+            "blur": "1",
+            "spread": "0"
+          },
+          {
+            "color": "rgba({Accent.100},0.20)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "26",
+            "blur": "80",
+            "spread": "0"
+          }
+        ],
+        "type": "boxShadow"
       }
     }
   },
