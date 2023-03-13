@@ -2362,7 +2362,7 @@
             "type": "color"
           },
           "Inverted": {
-            "value": "{Neutrals.1000}",
+            "value": "{Neutrals.120}",
             "type": "color"
           },
           "Accent": {
