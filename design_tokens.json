@@ -2,15 +2,15 @@
   "Colors/Core": {
     "Accent": {
       "100": {
-        "value": "hsla({Accent.hue}, {Accent.saturation}%, 26%, 1)",
+        "value": "hsla({Accent.hue}, {Accent.saturation}%, 34%, 1)",
         "type": "color"
       },
       "200": {
-        "value": "hsla({Accent.hue}, {Accent.saturation}%, 33%, 1)",
+        "value": "hsla({Accent.hue}, {Accent.saturation}%, 40%, 1)",
         "type": "color"
       },
       "300": {
-        "value": "hsla({Accent.hue}, {Accent.saturation}%, 40%, 1)",
+        "value": "hsla({Accent.hue}, {Accent.saturation}%, 46%, 1)",
         "type": "color"
       },
       "400": {
@@ -30,58 +30,58 @@
         "type": "color"
       },
       "800": {
-        "value": "hsla({Accent.hue}, {Accent.saturation}%, 91%, 1)",
+        "value": "hsla({Accent.hue}, {Accent.saturation}%, 76%, 1)",
         "type": "color"
       },
       "900": {
-        "value": "hsla({Accent.hue}, {Accent.saturation}%, 95%, 1)",
+        "value": "hsla({Accent.hue}, {Accent.saturation}%, 82%, 1)",
         "type": "color"
       },
       "hue": {
-        "value": "236",
+        "value": "237",
         "type": "Variables",
         "description": "Accent color used to control theming"
       },
       "saturation": {
-        "value": "76",
+        "value": "81",
         "type": "Variables"
       }
     },
     "Warning": {
       "150": {
-        "value": "hsla({Warning.hue}, {Warning.saturation}%, 15%, 1)",
+        "value": "hsla({Warning.hue}, {Warning.saturation}%, 34%, 1)",
         "type": "color"
       },
       "250": {
-        "value": "hsla({Warning.hue}, {Warning.saturation}%, 25%, 1)",
+        "value": "hsla({Warning.hue}, {Warning.saturation}%, 40%, 1)",
         "type": "color"
       },
       "350": {
-        "value": "hsla({Warning.hue}, {Warning.saturation}%, 35%, 1)",
+        "value": "hsla({Warning.hue}, {Warning.saturation}%, 46%, 1)",
         "type": "color"
       },
       "450": {
-        "value": "hsla({Warning.hue}, {Warning.saturation}%, 45%, 1)",
+        "value": "hsla({Warning.hue}, {Warning.saturation}%, 52%, 1)",
         "type": "color"
       },
       "550": {
-        "value": "hsla({Warning.hue}, {Warning.saturation}%, 55%, 1)",
+        "value": "hsla({Warning.hue}, {Warning.saturation}%, 56%, 1)",
         "type": "color"
       },
       "650": {
-        "value": "hsla({Warning.hue}, {Warning.saturation}%, 65%, 1)",
+        "value": "hsla({Warning.hue}, {Warning.saturation}%, 61%, 1)",
         "type": "color"
       },
       "750": {
-        "value": "hsla({Warning.hue}, {Warning.saturation}%, 75%, 1)",
+        "value": "hsla({Warning.hue}, {Warning.saturation}%, 69%, 1)",
         "type": "color"
       },
       "850": {
-        "value": "hsla({Warning.hue}, {Warning.saturation}%, 85%, 1)",
+        "value": "hsla({Warning.hue}, {Warning.saturation}%, 76%, 1)",
         "type": "color"
       },
       "950": {
-        "value": "hsla({Warning.hue}, {Warning.saturation}%, 95%, 1)",
+        "value": "hsla({Warning.hue}, {Warning.saturation}%, 82%, 1)",
         "type": "color"
       },
       "hue": {
@@ -90,25 +90,25 @@
         "description": "Accent color used to control theming"
       },
       "saturation": {
-        "value": "86",
+        "value": "74",
         "type": "Variables"
       }
     },
     "Success": {
       "150": {
-        "value": "hsla({Success.hue}, {Success.saturation}%, 15%, 1)",
-        "type": "color"
-      },
-      "250": {
         "value": "hsla({Success.hue}, {Success.saturation}%, 25%, 1)",
         "type": "color"
       },
+      "250": {
+        "value": "hsla({Success.hue}, {Success.saturation}%, 32%, 1)",
+        "type": "color"
+      },
       "350": {
-        "value": "hsla({Success.hue}, {Success.saturation}%, 35%, 1)",
+        "value": "hsla({Success.hue}, {Success.saturation}%, 40%, 1)",
         "type": "color"
       },
       "450": {
-        "value": "hsla({Success.hue}, {Success.saturation}%, 45%, 1)",
+        "value": "hsla({Success.hue}, {Success.saturation}%, 47%, 1)",
         "type": "color"
       },
       "550": {
@@ -116,28 +116,28 @@
         "type": "color"
       },
       "650": {
-        "value": "hsla({Success.hue}, {Success.saturation}%, 65%, 1)",
+        "value": "hsla({Success.hue}, {Success.saturation}%, 64%, 1)",
         "type": "color"
       },
       "750": {
-        "value": "hsla({Success.hue}, {Success.saturation}%, 75%, 1)",
+        "value": "hsla({Success.hue}, {Success.saturation}%, 71%, 1)",
         "type": "color"
       },
       "850": {
-        "value": "hsla({Success.hue}, {Success.saturation}%, 85%, 1)",
+        "value": "hsla({Success.hue}, {Success.saturation}%, 80%, 1)",
         "type": "color"
       },
       "950": {
-        "value": "hsla({Success.hue}, {Success.saturation}%, 95%, 1)",
+        "value": "hsla({Success.hue}, {Success.saturation}%, 88%, 1)",
         "type": "color"
       },
       "hue": {
-        "value": "140",
+        "value": "141",
         "type": "Variables",
         "description": "Success color used to control theming"
       },
       "saturation": {
-        "value": "86",
+        "value": "70",
         "type": "Variables"
       }
     },
@@ -179,7 +179,7 @@
         "type": "color"
       },
       "hue": {
-        "value": "352",
+        "value": "356",
         "type": "Variables"
       },
       "saturation": {
@@ -224,36 +224,28 @@
         "value": "hsla({Neutrals.hue},{Neutrals.saturation}  ,24%,1)",
         "type": "color"
       },
-      "260": {
-        "value": "hsla({Neutrals.hue},{Neutrals.saturation} ,26%,1)",
-        "type": "color"
-      },
       "280": {
-        "value": "hsla({Neutrals.hue},{Neutrals.saturation} ,26%,1)",
+        "value": "hsla({Neutrals.hue},{Neutrals.saturation} ,28%,1)",
         "type": "color"
       },
-      "300": {
-        "value": "hsla({Neutrals.hue},{Neutrals.saturation} ,30%,1)",
+      "320": {
+        "value": "hsla({Neutrals.hue},{Neutrals.saturation} ,32%,1)",
         "type": "color"
       },
-      "340": {
-        "value": "hsla({Neutrals.hue},{Neutrals.saturation} ,34%,1)",
+      "360": {
+        "value": "hsla({Neutrals.hue},{Neutrals.saturation} ,36%,1)",
         "type": "color"
       },
-      "380": {
-        "value": "hsla({Neutrals.hue}, {Neutrals.saturation} ,38%,1)",
+      "400": {
+        "value": "hsla({Neutrals.hue}, {Neutrals.saturation} ,40%,1)",
         "type": "color"
       },
-      "460": {
-        "value": "hsla({Neutrals.hue},{Neutrals.saturation} ,46%,1)",
+      "480": {
+        "value": "hsla({Neutrals.hue},{Neutrals.saturation} ,48%,1)",
         "type": "color"
       },
-      "500": {
-        "value": "hsla({Neutrals.hue}, {Neutrals.saturation}  ,50%,1)",
-        "type": "color"
-      },
-      "540": {
-        "value": "hsla({Neutrals.hue},{Neutrals.saturation} ,54%,1)",
+      "560": {
+        "value": "hsla({Neutrals.hue},{Neutrals.saturation} ,56%,1)",
         "type": "color"
       },
       "620": {
@@ -272,16 +264,8 @@
         "value": "hsla({Neutrals.hue},{Neutrals.saturation}  ,78%,1)",
         "type": "color"
       },
-      "800": {
-        "value": "hsla({Neutrals.hue}, {Neutrals.saturation} ,80%,1)",
-        "type": "color"
-      },
       "820": {
-        "value": "hsla({Neutrals.hue}, {Neutrals.saturation}  ,82%,1)",
-        "type": "color"
-      },
-      "840": {
-        "value": "hsla({Neutrals.hue},{Neutrals.saturation} ,84%,1)",
+        "value": "hsla({Neutrals.hue}, {Neutrals.saturation} ,82%,1)",
         "type": "color"
       },
       "860": {
@@ -1182,7 +1166,7 @@
           "type": "color"
         },
         "06": {
-          "value": "$Neutrals.260",
+          "value": "{Neutrals.280}",
           "type": "color"
         }
       },
@@ -1215,11 +1199,11 @@
             "type": "color"
           },
           "Hovered": {
-            "value": "$Neutrals.260",
+            "value": "{Neutrals.280}",
             "type": "color"
           },
           "Selected": {
-            "value": "$Neutrals.300",
+            "value": "{Neutrals.320}",
             "type": "color"
           },
           "Focused": {
@@ -1233,7 +1217,7 @@
         },
         "Tertiary": {
           "Default": {
-            "value": "rgba($Neutrals.260,0)",
+            "value": "rgba({Neutrals.280},0)",
             "type": "color"
           },
           "Hovered": {
@@ -1241,7 +1225,7 @@
             "type": "color"
           },
           "Selected": {
-            "value": "$Neutrals.260",
+            "value": "{Neutrals.280}",
             "type": "color"
           },
           "Focused": {
@@ -1468,7 +1452,7 @@
           "type": "color"
         },
         "Disabled": {
-          "value": "{Neutrals.260}",
+          "value": "{Neutrals.280}",
           "type": "color"
         }
       }
@@ -1492,7 +1476,7 @@
           "type": "color"
         },
         "Muted": {
-          "value": "$Neutrals.380",
+          "value": "{Neutrals.400}",
           "type": "color"
         }
       },
@@ -1610,7 +1594,7 @@
           "type": "color"
         },
         "Disabled": {
-          "value": "$Neutrals.380",
+          "value": "{Neutrals.400}",
           "type": "color"
         }
       },
@@ -1718,11 +1702,11 @@
           "type": "color"
         },
         "Hovered": {
-          "value": "$Neutrals.260",
+          "value": "{Neutrals.280}",
           "type": "color"
         },
         "Focused": {
-          "value": "$Neutrals.800",
+          "value": "{Neutrals.820}",
           "type": "color"
         }
       },
@@ -1852,11 +1836,11 @@
           "type": "color"
         },
         "Hovered": {
-          "value": "$Neutrals.260",
+          "value": "{Neutrals.280}",
           "type": "color"
         },
         "Selected": {
-          "value": "$Neutrals.340",
+          "value": "{Neutrals.360}",
           "type": "color"
         },
         "Disabled": {
@@ -1866,11 +1850,11 @@
       },
       "Select": {
         "Default": {
-          "value": "{Neutrals.460}",
+          "value": "{Neutrals.480}",
           "type": "color"
         },
         "Hovered": {
-          "value": "$Neutrals.540",
+          "value": "{Neutrals.560}",
           "type": "color"
         },
         "Filled": {
@@ -1878,7 +1862,7 @@
           "type": "color"
         },
         "Disabled": {
-          "value": "{Neutrals.300}",
+          "value": "{Neutrals.320}",
           "type": "color"
         }
       },
@@ -1903,15 +1887,15 @@
         },
         "Secondary": {
           "Default": {
-            "value": "$Neutrals.260",
+            "value": "{Neutrals.280}",
             "type": "color"
           },
           "Hovered": {
-            "value": "$Neutrals.300",
+            "value": "{Neutrals.320}",
             "type": "color"
           },
           "Selected": {
-            "value": "$Neutrals.540",
+            "value": "{Neutrals.560}",
             "type": "color"
           },
           "Disabled": {
@@ -1921,19 +1905,19 @@
         },
         "Tertiary": {
           "Default": {
-            "value": "rgba($Neutrals.260,0)",
+            "value": "rgba({Neutrals.280},0)",
             "type": "color"
           },
           "Hovered": {
-            "value": "$Neutrals.260",
+            "value": "{Neutrals.280}",
             "type": "color"
           },
           "Selected": {
-            "value": "$Neutrals.300",
+            "value": "{Neutrals.320}",
             "type": "color"
           },
           "Focused": {
-            "value": "$Neutrals.300",
+            "value": "{Neutrals.320}",
             "type": "color"
           },
           "Disabled": {
@@ -1961,7 +1945,7 @@
         },
         "Navigation": {
           "Selected": {
-            "value": "$Neutrals.260",
+            "value": "{Neutrals.280}",
             "type": "color"
           }
         },
@@ -1986,6 +1970,17 @@
       }
     },
     "Interactive": {
+      "Resting": {
+        "value": {
+          "x": "0",
+          "y": "1",
+          "blur": "2",
+          "spread": "0",
+          "color": "rgba({Neutrals.100},0.05)",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
       "Pressed": {
         "value": {
           "x": "0",
@@ -1997,17 +1992,6 @@
         },
         "type": "boxShadow",
         "description": "Buttons"
-      },
-      "Resting": {
-        "value": {
-          "x": "0",
-          "y": "1",
-          "blur": "2",
-          "spread": "0",
-          "color": "rgba({Neutrals.100},0.05)",
-          "type": "dropShadow"
-        },
-        "type": "boxShadow"
       },
       "Lifted": {
         "value": {
@@ -2157,7 +2141,7 @@
           "type": "color"
         },
         "06": {
-          "value": "$Neutrals.260",
+          "value": "{Neutrals.280}",
           "type": "color"
         }
       },
@@ -2190,11 +2174,11 @@
             "type": "color"
           },
           "Hovered": {
-            "value": "$Neutrals.260",
+            "value": "{Neutrals.280}",
             "type": "color"
           },
           "Selected": {
-            "value": "$Neutrals.300",
+            "value": "{Neutrals.320}",
             "type": "color"
           },
           "Focused": {
@@ -2208,7 +2192,7 @@
         },
         "Tertiary": {
           "Default": {
-            "value": "rgba($Neutrals.260,0)",
+            "value": "rgba({Neutrals.280},0)",
             "type": "color"
           },
           "Hovered": {
@@ -2443,7 +2427,7 @@
           "type": "color"
         },
         "Disabled": {
-          "value": "{Neutrals.260}",
+          "value": "{Neutrals.280}",
           "type": "color"
         }
       }
@@ -2459,11 +2443,11 @@
           "type": "color"
         },
         "Secondary": {
-          "value": "$Neutrals.380",
+          "value": "{Neutrals.400}",
           "type": "color"
         },
         "Tertiary": {
-          "value": "$Neutrals.460",
+          "value": "{Neutrals.480}",
           "type": "color"
         },
         "Muted": {
@@ -2585,7 +2569,7 @@
           "type": "color"
         },
         "Disabled": {
-          "value": "$Neutrals.380",
+          "value": "{Neutrals.400}",
           "type": "color"
         }
       },
@@ -2602,7 +2586,7 @@
         },
         "Secondary": {
           "Default": {
-            "value": "{Neutrals.380}",
+            "value": "{Neutrals.400}",
             "type": "color"
           },
           "Disabled": {
@@ -2640,7 +2624,7 @@
         },
         "Navigation": {
           "Default": {
-            "value": "{Neutrals.460}",
+            "value": "{Neutrals.480}",
             "type": "color"
           },
           "Selected": {
@@ -2693,11 +2677,11 @@
           "type": "color"
         },
         "Hovered": {
-          "value": "$Neutrals.260",
+          "value": "{Neutrals.280}",
           "type": "color"
         },
         "Focused": {
-          "value": "$Neutrals.800",
+          "value": "{Neutrals.820}",
           "type": "color"
         }
       },
@@ -2827,11 +2811,11 @@
           "type": "color"
         },
         "Hovered": {
-          "value": "$Neutrals.260",
+          "value": "{Neutrals.280}",
           "type": "color"
         },
         "Selected": {
-          "value": "$Neutrals.340",
+          "value": "{Neutrals.360}",
           "type": "color"
         },
         "Disabled": {
@@ -2845,7 +2829,7 @@
           "type": "color"
         },
         "Hovered": {
-          "value": "$Neutrals.540",
+          "value": "{Neutrals.560}",
           "type": "color"
         },
         "Filled": {
@@ -2853,7 +2837,7 @@
           "type": "color"
         },
         "Disabled": {
-          "value": "{Neutrals.300}",
+          "value": "{Neutrals.320}",
           "type": "color"
         }
       },
@@ -2882,11 +2866,11 @@
             "type": "color"
           },
           "Hovered": {
-            "value": "$Neutrals.300",
+            "value": "{Neutrals.320}",
             "type": "color"
           },
           "Selected": {
-            "value": "$Neutrals.540",
+            "value": "{Neutrals.560}",
             "type": "color"
           },
           "Disabled": {
@@ -2896,11 +2880,11 @@
         },
         "Tertiary": {
           "Default": {
-            "value": "rgba($Neutrals.260,0)",
+            "value": "rgba({Neutrals.280},0)",
             "type": "color"
           },
           "Hovered": {
-            "value": "$Neutrals.260",
+            "value": "{Neutrals.280}",
             "type": "color"
           },
           "Selected": {
@@ -2908,7 +2892,7 @@
             "type": "color"
           },
           "Focused": {
-            "value": "$Neutrals.300",
+            "value": "{Neutrals.320}",
             "type": "color"
           },
           "Disabled": {
@@ -3132,7 +3116,7 @@
           "type": "color"
         },
         "06": {
-          "value": "$Neutrals.260",
+          "value": "{Neutrals.280}",
           "type": "color"
         }
       },
@@ -3165,11 +3149,11 @@
             "type": "color"
           },
           "Hovered": {
-            "value": "$Neutrals.260",
+            "value": "{Neutrals.280}",
             "type": "color"
           },
           "Selected": {
-            "value": "$Neutrals.300",
+            "value": "{Neutrals.320}",
             "type": "color"
           },
           "Focused": {
@@ -3187,11 +3171,11 @@
             "type": "color"
           },
           "Hovered": {
-            "value": "$Neutrals.260",
+            "value": "{Neutrals.280}",
             "type": "color"
           },
           "Selected": {
-            "value": "$Neutrals.300",
+            "value": "{Neutrals.320}",
             "type": "color"
           },
           "Focused": {
@@ -3205,7 +3189,7 @@
         },
         "Flat": {
           "Default": {
-            "value": "rgba($Neutrals.260,0)",
+            "value": "rgba({Neutrals.280},0)",
             "type": "color"
           },
           "Hovered": {
@@ -3392,7 +3376,7 @@
           "type": "color"
         },
         "Disabled": {
-          "value": "{Neutrals.260}",
+          "value": "{Neutrals.280}",
           "type": "color"
         }
       }
@@ -3416,7 +3400,7 @@
           "type": "color"
         },
         "Muted": {
-          "value": "$Neutrals.460",
+          "value": "{Neutrals.480}",
           "type": "color"
         }
       },
@@ -3606,11 +3590,11 @@
           "type": "color"
         },
         "Hovered": {
-          "value": "$Neutrals.300",
+          "value": "{Neutrals.320}",
           "type": "color"
         },
         "Focused": {
-          "value": "$Neutrals.800",
+          "value": "{Neutrals.820}",
           "type": "color"
         },
         "Disabled": {
@@ -3740,11 +3724,11 @@
           "type": "color"
         },
         "Hovered": {
-          "value": "$Neutrals.300",
+          "value": "{Neutrals.320}",
           "type": "color"
         },
         "Focused": {
-          "value": "$Neutrals.380",
+          "value": "{Neutrals.400}",
           "type": "color"
         },
         "Disabled": {
@@ -3754,11 +3738,11 @@
       },
       "Select": {
         "Default": {
-          "value": "{Neutrals.460}",
+          "value": "{Neutrals.480}",
           "type": "color"
         },
         "Hovered": {
-          "value": "$Neutrals.540",
+          "value": "{Neutrals.560}",
           "type": "color"
         },
         "Filled": {
@@ -3766,7 +3750,7 @@
           "type": "color"
         },
         "Disabled": {
-          "value": "{Neutrals.300}",
+          "value": "{Neutrals.320}",
           "type": "color"
         }
       },
@@ -3791,15 +3775,15 @@
         },
         "Secondary": {
           "Default": {
-            "value": "$Neutrals.260",
+            "value": "{Neutrals.280}",
             "type": "color"
           },
           "Hovered": {
-            "value": "$Neutrals.300",
+            "value": "{Neutrals.320}",
             "type": "color"
           },
           "Selected": {
-            "value": "$Neutrals.540",
+            "value": "{Neutrals.560}",
             "type": "color"
           },
           "Disabled": {
@@ -3809,15 +3793,15 @@
         },
         "Tertiary": {
           "Default": {
-            "value": "$Neutrals.300",
+            "value": "{Neutrals.320}",
             "type": "color"
           },
           "Hovered": {
-            "value": "$Neutrals.300",
+            "value": "{Neutrals.320}",
             "type": "color"
           },
           "Selected": {
-            "value": "$Neutrals.460",
+            "value": "{Neutrals.480}",
             "type": "color"
           },
           "Disabled": {
@@ -3827,19 +3811,19 @@
         },
         "Flat": {
           "Default": {
-            "value": "rgba($Neutrals.260,0)",
+            "value": "rgba({Neutrals.280},0)",
             "type": "color"
           },
           "Hovered": {
-            "value": "$Neutrals.260",
+            "value": "{Neutrals.280}",
             "type": "color"
           },
           "Selected": {
-            "value": "$Neutrals.300",
+            "value": "{Neutrals.320}",
             "type": "color"
           },
           "Focused": {
-            "value": "$Neutrals.300",
+            "value": "{Neutrals.320}",
             "type": "color"
           },
           "Disabled": {
