@@ -1304,67 +1304,67 @@
       "Decorative": {
         "Parts": {
           "Capability": {
-            "value": "rgba({Content.Decorative.Parts.Capability},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Capability},0.1)",
             "type": "color"
           },
           "Feature": {
-            "value": "rgba({Content.Decorative.Parts.Feature},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Feature},0.1)",
             "type": "color"
           },
           "Enhancement": {
-            "value": "rgba({Content.Decorative.Parts.Enhancement},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Enhancement},0.1)",
             "type": "color"
           },
           "Product": {
-            "value": "rgba({Content.Decorative.Parts.Product},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Product},0.1)",
             "type": "color"
           },
           "API": {
-            "value": "rgba({Content.Decorative.Parts.API},0.1)",
+            "value": "rgba({Text.Decorative.Parts.API},0.1)",
             "type": "color"
           },
           "API-Cluster": {
-            "value": "rgba({Content.Decorative.Parts.API-Cluster},0.1)",
+            "value": "rgba({Text.Decorative.Parts.API-Cluster},0.1)",
             "type": "color"
           },
           "Runnable": {
-            "value": "rgba({Content.Decorative.Parts.Runnable},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Runnable},0.1)",
             "type": "color"
           },
           "Linkable": {
-            "value": "rgba({Content.Decorative.Parts.Linkable},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Linkable},0.1)",
             "type": "color"
           },
           "Database": {
-            "value": "rgba({Content.Decorative.Parts.Database},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Database},0.1)",
             "type": "color"
           },
           "Sub-Feature": {
-            "value": "rgba({Content.Decorative.Parts.Sub-Feature},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Sub-Feature},0.1)",
             "type": "color"
           }
         },
         "Work": {
           "Issue": {
-            "value": "rgba({Content.Decorative.Work.Issue},0.1)",
+            "value": "rgba({Text.Decorative.Work.Issue},0.1)",
             "type": "color"
           },
           "Ticket": {
-            "value": "rgba({Content.Decorative.Work.Ticket},0.1)",
+            "value": "rgba({Text.Decorative.Work.Ticket},0.1)",
             "type": "color"
           },
           "Conversation": {
-            "value": "rgba({Content.Decorative.Work.Conversation},0.1)",
+            "value": "rgba({Text.Decorative.Work.Conversation},0.1)",
             "type": "color"
           }
         },
         "Identity": {
           "Issue": {
-            "value": "rgba({Content.Decorative.Identity.Customer},0.1)",
+            "value": "rgba({Text.Decorative.Identity.Customer},0.1)",
             "type": "color"
           },
           "Ticket": {
-            "value": "rgba({Content.Decorative.Identity.Developer},0.1)",
+            "value": "rgba({Text.Decorative.Identity.Developer},0.1)",
             "type": "color"
           }
         }
@@ -1372,15 +1372,15 @@
       "Feedback": {
         "Full": {
           "Alert": {
-            "value": "{Content.Feedback.Alert}",
+            "value": "{Text.Feedback.Alert}",
             "type": "color"
           },
           "Success": {
-            "value": "{Content.Feedback.Success}",
+            "value": "{Text.Feedback.Success}",
             "type": "color"
           },
           "Warning": {
-            "value": "{Content.Feedback.Warning}",
+            "value": "{Text.Feedback.Warning}",
             "type": "color"
           },
           "Inverted": {
@@ -1394,83 +1394,65 @@
         },
         "Opacity": {
           "Alert": {
-            "value": "rgba({Content.Feedback.Alert},0.1)",
+            "value": "rgba({Text.Feedback.Alert},0.1)",
             "type": "color"
           },
           "Success": {
-            "value": "rgba({Content.Feedback.Success},0.1)",
+            "value": "rgba({Text.Feedback.Success},0.1)",
             "type": "color"
           },
           "Warning": {
-            "value": "rgba({Content.Feedback.Warning},0.1)",
+            "value": "rgba({Text.Feedback.Warning},0.1)",
             "type": "color"
           },
           "Smart": {
-            "value": "rgba({Content.Feedback.Smart},0.1)",
+            "value": "rgba({Text.Feedback.Smart},0.1)",
             "type": "color"
           },
           "Neutral": {
-            "value": "rgba({Content.Feedback.Neutral},0.1)",
+            "value": "rgba({Text.Feedback.Neutral},0.1)",
             "type": "color"
           }
         }
       },
       "Input": {
-        "Default": {
-          "value": "{Neutrals.100}",
-          "type": "color"
+        "Text": {
+          "Resting": {
+            "value": "{Neutrals.100}",
+            "type": "color"
+          },
+          "Pressed": {
+            "value": "{Neutrals.80}",
+            "type": "color"
+          }
         },
-        "Typing": {
-          "value": "{Neutrals.80}",
-          "type": "color"
+        "Search": {
+          "Resting": {
+            "value": "{Neutrals.80}",
+            "type": "color"
+          },
+          "Pressed": {
+            "value": "{Neutrals.100}",
+            "type": "color"
+          }
         },
-        "Disabled": {
-          "value": "$Neutrals.140",
-          "type": "color"
-        }
-      },
-      "Search": {
-        "Default": {
-          "value": "{Neutrals.80}",
-          "type": "color"
-        },
-        "Hovered": {
-          "value": "{Neutrals.140}",
-          "type": "color"
-        },
-        "Pressed": {
-          "value": "{Neutrals.100}",
-          "type": "color"
-        },
-        "Focused": {
-          "value": "{Neutrals.120}",
-          "type": "color"
-        }
-      },
-      "Select": {
-        "Default": {
-          "value": "{Neutrals.200}",
-          "type": "color"
-        },
-        "Default-Hovered": {
-          "value": "{Neutrals.220}",
-          "type": "color"
-        },
-        "Filled": {
-          "value": "{Accent.500}",
-          "type": "color"
-        },
-        "Filled-Hovered": {
-          "value": "{Accent.600}",
-          "type": "color"
-        },
-        "Disabled": {
-          "value": "{Neutrals.280}",
-          "type": "color"
+        "Select": {
+          "Active": {
+            "value": "{Accent.500}",
+            "type": "color"
+          },
+          "Pressed": {
+            "value": "{Accent.600}",
+            "type": "color"
+          },
+          "Disabled": {
+            "value": "{Neutrals.240}",
+            "type": "color"
+          }
         }
       }
     },
-    "Content": {
+    "Text": {
       "Default": {
         "Highlight": {
           "value": "$Neutrals.1000",
@@ -1525,7 +1507,7 @@
           "type": "color"
         },
         "Neutral": {
-          "value": "$Content.Default.Tertiary",
+          "value": "{Text.Default.Tertiary}",
           "type": "color"
         }
       },
@@ -1599,11 +1581,11 @@
       },
       "Input": {
         "Placeholder": {
-          "value": "$Content.Default.Muted",
+          "value": "{Text.Default.Muted}",
           "type": "color"
         },
         "Filled": {
-          "value": "$Content.Default.Primary",
+          "value": "{Text.Default.Primary}",
           "type": "color"
         },
         "Disabled": {
@@ -1614,49 +1596,49 @@
       "Interactive": {
         "Primary": {
           "Default": {
-            "value": "{Content.Default.Highlight}",
+            "value": "{Text.Default.Highlight}",
             "type": "color"
           },
           "Disabled": {
-            "value": "$Content.Default.Muted",
+            "value": "{Text.Default.Muted}",
             "type": "color"
           }
         },
         "Secondary": {
           "Default": {
-            "value": "{Content.Default.Highlight}",
+            "value": "{Text.Default.Highlight}",
             "type": "color"
           },
           "Disabled": {
-            "value": "$Content.Default.Muted",
+            "value": "{Text.Default.Muted}",
             "type": "color"
           }
         },
         "Tertiary": {
           "Default": {
-            "value": "{Content.Default.Secondary}",
+            "value": "{Text.Default.Secondary}",
             "type": "color"
           },
           "Disabled": {
-            "value": "$Content.Default.Muted",
+            "value": "{Text.Default.Muted}",
             "type": "color"
           }
         },
         "Flat": {
           "Default": {
-            "value": "$Content.Default.Secondary",
+            "value": "{Text.Default.Secondary}",
             "type": "color"
           },
           "Hovered": {
-            "value": "{Content.Default.Highlight}",
+            "value": "{Text.Default.Highlight}",
             "type": "color"
           },
           "Selected": {
-            "value": "{Content.Default.Highlight}",
+            "value": "{Text.Default.Highlight}",
             "type": "color"
           },
           "Disabled": {
-            "value": "$Content.Default.Muted",
+            "value": "{Text.Default.Muted}",
             "type": "color"
           }
         },
@@ -1666,29 +1648,29 @@
             "type": "color"
           },
           "Selected": {
-            "value": "{Content.Default.Highlight}",
+            "value": "{Text.Default.Highlight}",
             "type": "color"
           },
           "Disabled": {
-            "value": "$Content.Default.Muted",
+            "value": "{Text.Default.Muted}",
             "type": "color"
           }
         },
         "Bucket": {
           "Default": {
-            "value": "$Content.Default.Secondary",
+            "value": "{Text.Default.Secondary}",
             "type": "color"
           },
           "Hovered": {
-            "value": "{Content.Default.Highlight}",
+            "value": "{Text.Default.Highlight}",
             "type": "color"
           },
           "Selected": {
-            "value": "{Content.Default.Highlight}",
+            "value": "{Text.Default.Highlight}",
             "type": "color"
           },
           "Disabled": {
-            "value": "$Content.Default.Muted",
+            "value": "{Text.Default.Muted}",
             "type": "color"
           }
         }
@@ -1705,21 +1687,21 @@
       }
     },
     "Border": {
-      "Default": {
-        "Outline": {
-          "value": "$Neutrals.200",
+      "Outline": {
+        "01": {
+          "value": "$Neutrals.180",
           "type": "color"
         },
-        "Muted": {
+        "00": {
           "value": "$Neutrals.140",
           "type": "color"
         },
-        "Hovered": {
-          "value": "{Neutrals.280}",
+        "02": {
+          "value": "{Neutrals.220}",
           "type": "color"
         },
-        "Focused": {
-          "value": "{Neutrals.820}",
+        "03": {
+          "value": "{Neutrals.240}",
           "type": "color"
         }
       },
@@ -1745,7 +1727,7 @@
           "type": "color"
         },
         "Neutral": {
-          "value": "rgba({Content.Feedback.Neutral},0.2)",
+          "value": "rgba({Text.Feedback.Neutral},0.2)",
           "type": "color"
         },
         "Accent": {
@@ -1754,23 +1736,23 @@
         },
         "Opacity": {
           "Alert": {
-            "value": "rgba({Content.Feedback.Alert},0.1)",
+            "value": "rgba({Text.Feedback.Alert},0.1)",
             "type": "color"
           },
           "Success": {
-            "value": "rgba({Content.Feedback.Success},0.1)",
+            "value": "rgba({Text.Feedback.Success},0.1)",
             "type": "color"
           },
           "Warning": {
-            "value": "rgba({Content.Feedback.Warning},0.1)",
+            "value": "rgba({Text.Feedback.Warning},0.1)",
             "type": "color"
           },
           "Smart": {
-            "value": "rgba({Content.Feedback.Smart},0.1)",
+            "value": "rgba({Text.Feedback.Smart},0.1)",
             "type": "color"
           },
           "Neutral": {
-            "value": "rgba({Content.Feedback.Neutral},0.1)",
+            "value": "rgba({Text.Feedback.Neutral},0.1)",
             "type": "color"
           }
         }
@@ -1778,67 +1760,67 @@
       "Decorative": {
         "Parts": {
           "Capability": {
-            "value": "rgba({Content.Decorative.Parts.Capability},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Capability},0.1)",
             "type": "color"
           },
           "Feature": {
-            "value": "rgba({Content.Decorative.Parts.Feature},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Feature},0.1)",
             "type": "color"
           },
           "Enhancement": {
-            "value": "rgba({Content.Decorative.Parts.Enhancement},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Enhancement},0.1)",
             "type": "color"
           },
           "Product": {
-            "value": "rgba({Content.Decorative.Parts.Product},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Product},0.1)",
             "type": "color"
           },
           "API": {
-            "value": "rgba({Content.Decorative.Parts.API},0.1)",
+            "value": "rgba({Text.Decorative.Parts.API},0.1)",
             "type": "color"
           },
           "API-Cluster": {
-            "value": "rgba({Content.Decorative.Parts.API-Cluster},0.1)",
+            "value": "rgba({Text.Decorative.Parts.API-Cluster},0.1)",
             "type": "color"
           },
           "Runnable": {
-            "value": "rgba({Content.Decorative.Parts.Runnable},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Runnable},0.1)",
             "type": "color"
           },
           "Linkable": {
-            "value": "rgba({Content.Decorative.Parts.Linkable},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Linkable},0.1)",
             "type": "color"
           },
           "Database": {
-            "value": "rgba({Content.Decorative.Parts.Database},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Database},0.1)",
             "type": "color"
           },
           "Sub-Feature": {
-            "value": "rgba({Content.Decorative.Parts.Sub-Feature},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Sub-Feature},0.1)",
             "type": "color"
           }
         },
         "Work": {
           "Issue": {
-            "value": "rgba({Content.Decorative.Work.Issue},0.1)",
+            "value": "rgba({Text.Decorative.Work.Issue},0.1)",
             "type": "color"
           },
           "Ticket": {
-            "value": "rgba({Content.Decorative.Work.Ticket},0.1)",
+            "value": "rgba({Text.Decorative.Work.Ticket},0.1)",
             "type": "color"
           },
           "Conversation": {
-            "value": "rgba({Content.Decorative.Work.Conversation},0.1)",
+            "value": "rgba({Text.Decorative.Work.Conversation},0.1)",
             "type": "color"
           }
         },
         "Identity": {
           "Issue": {
-            "value": "rgba({Content.Decorative.Identity.Customer},0.1)",
+            "value": "rgba({Text.Decorative.Identity.Customer},0.1)",
             "type": "color"
           },
           "Ticket": {
-            "value": "rgba({Content.Decorative.Identity.Developer},0.1)",
+            "value": "rgba({Text.Decorative.Identity.Developer},0.1)",
             "type": "color"
           }
         }
@@ -1881,25 +1863,21 @@
       },
       "Interactive": {
         "Primary": {
-          "Default": {
+          "Resting": {
             "value": "{Accent.600}",
             "type": "color"
           },
           "Hovered": {
-            "value": "{Accent.600}",
+            "value": "{Accent.700}",
             "type": "color"
           },
-          "Selected": {
+          "Pressed": {
             "value": "{Accent.800}",
-            "type": "color"
-          },
-          "Disabled": {
-            "value": "rgba($Border.Interactive.Primary.Default,0.2)",
             "type": "color"
           }
         },
         "Secondary": {
-          "Default": {
+          "Resting": {
             "value": "{Neutrals.280}",
             "type": "color"
           },
@@ -1907,39 +1885,23 @@
             "value": "{Neutrals.320}",
             "type": "color"
           },
-          "Selected": {
+          "Pressed": {
             "value": "{Neutrals.560}",
-            "type": "color"
-          },
-          "Disabled": {
-            "value": "rgba($Border.Interactive.Secondary.Default,0.2)",
             "type": "color"
           }
         },
         "Tertiary": {
-          "Default": {
-            "value": "rgba({Neutrals.280},0)",
-            "type": "color"
-          },
           "Hovered": {
             "value": "{Neutrals.280}",
             "type": "color"
           },
-          "Selected": {
+          "Pressed": {
             "value": "{Neutrals.320}",
-            "type": "color"
-          },
-          "Focused": {
-            "value": "{Neutrals.320}",
-            "type": "color"
-          },
-          "Disabled": {
-            "value": "{Background.Interactive.Tertiary.Default}",
             "type": "color"
           }
         },
         "Destructive": {
-          "Default": {
+          "Resting": {
             "value": "{Alert.600}",
             "type": "color"
           },
@@ -1947,23 +1909,23 @@
             "value": "{Alert.700}",
             "type": "color"
           },
-          "Selected": {
+          "Pressed": {
             "value": "{Alert.800}",
-            "type": "color"
-          },
-          "Disabled": {
-            "value": "rgba({Background.Interactive.Destructive.Resting},0.2)",
             "type": "color"
           }
         },
         "Navigation": {
-          "Selected": {
+          "Pressed": {
+            "value": "{Neutrals.280}",
+            "type": "color"
+          },
+          "Hovered": {
             "value": "{Neutrals.280}",
             "type": "color"
           }
         },
         "Bucket": {
-          "Default": {
+          "Resting": {
             "value": "$Neutrals.180",
             "type": "color"
           },
@@ -1971,12 +1933,22 @@
             "value": "$Neutrals.200",
             "type": "color"
           },
-          "Selected": {
+          "Pressed": {
             "value": "$Neutrals.220",
             "type": "color"
+          }
+        },
+        "Smart": {
+          "Resting": {
+            "value": "{Smart.600}",
+            "type": "color"
           },
-          "Disabled": {
-            "value": "{Neutrals.140}",
+          "Hovered": {
+            "value": "{Smart.700}",
+            "type": "color"
+          },
+          "Pressed": {
+            "value": "{Smart.800}",
             "type": "color"
           }
         }
@@ -2205,7 +2177,7 @@
         },
         "Navigation": {
           "Hovered": {
-            "value": "$Neutrals.180",
+            "value": "$Neutrals.920",
             "type": "color"
           },
           "Pressed": {
@@ -2245,67 +2217,67 @@
       "Decorative": {
         "Parts": {
           "Capability": {
-            "value": "rgba({Content.Decorative.Parts.Capability},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Capability},0.1)",
             "type": "color"
           },
           "Feature": {
-            "value": "rgba({Content.Decorative.Parts.Feature},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Feature},0.1)",
             "type": "color"
           },
           "Enhancement": {
-            "value": "rgba({Content.Decorative.Parts.Enhancement},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Enhancement},0.1)",
             "type": "color"
           },
           "Product": {
-            "value": "rgba({Content.Decorative.Parts.Product},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Product},0.1)",
             "type": "color"
           },
           "API": {
-            "value": "rgba({Content.Decorative.Parts.API},0.1)",
+            "value": "rgba({Text.Decorative.Parts.API},0.1)",
             "type": "color"
           },
           "API-Cluster": {
-            "value": "rgba({Content.Decorative.Parts.API-Cluster},0.1)",
+            "value": "rgba({Text.Decorative.Parts.API-Cluster},0.1)",
             "type": "color"
           },
           "Runnable": {
-            "value": "rgba({Content.Decorative.Parts.Runnable},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Runnable},0.1)",
             "type": "color"
           },
           "Linkable": {
-            "value": "rgba({Content.Decorative.Parts.Linkable},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Linkable},0.1)",
             "type": "color"
           },
           "Database": {
-            "value": "rgba({Content.Decorative.Parts.Database},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Database},0.1)",
             "type": "color"
           },
           "Sub-Feature": {
-            "value": "rgba({Content.Decorative.Parts.Sub-Feature},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Sub-Feature},0.1)",
             "type": "color"
           }
         },
         "Work": {
           "Issue": {
-            "value": "rgba({Content.Decorative.Work.Issue},0.1)",
+            "value": "rgba({Text.Decorative.Work.Issue},0.1)",
             "type": "color"
           },
           "Ticket": {
-            "value": "rgba({Content.Decorative.Work.Ticket},0.1)",
+            "value": "rgba({Text.Decorative.Work.Ticket},0.1)",
             "type": "color"
           },
           "Conversation": {
-            "value": "rgba({Content.Decorative.Work.Conversation},0.1)",
+            "value": "rgba({Text.Decorative.Work.Conversation},0.1)",
             "type": "color"
           }
         },
         "Identity": {
           "Issue": {
-            "value": "rgba({Content.Decorative.Identity.Customer},0.1)",
+            "value": "rgba({Text.Decorative.Identity.Customer},0.1)",
             "type": "color"
           },
           "Ticket": {
-            "value": "rgba({Content.Decorative.Identity.Developer},0.1)",
+            "value": "rgba({Text.Decorative.Identity.Developer},0.1)",
             "type": "color"
           }
         }
@@ -2313,15 +2285,15 @@
       "Feedback": {
         "Full": {
           "Alert": {
-            "value": "{Content.Feedback.Alert}",
+            "value": "{Text.Feedback.Alert}",
             "type": "color"
           },
           "Success": {
-            "value": "{Content.Feedback.Success}",
+            "value": "{Text.Feedback.Success}",
             "type": "color"
           },
           "Warning": {
-            "value": "{Content.Feedback.Warning}",
+            "value": "{Text.Feedback.Warning}",
             "type": "color"
           },
           "Inverted": {
@@ -2335,83 +2307,65 @@
         },
         "Opacity": {
           "Alert": {
-            "value": "rgba({Content.Feedback.Alert},0.1)",
+            "value": "rgba({Text.Feedback.Alert},0.1)",
             "type": "color"
           },
           "Success": {
-            "value": "rgba({Content.Feedback.Success},0.1)",
+            "value": "rgba({Text.Feedback.Success},0.1)",
             "type": "color"
           },
           "Warning": {
-            "value": "rgba({Content.Feedback.Warning},0.1)",
+            "value": "rgba({Text.Feedback.Warning},0.1)",
             "type": "color"
           },
           "Smart": {
-            "value": "rgba({Content.Feedback.Smart},0.1)",
+            "value": "rgba({Text.Feedback.Smart},0.1)",
             "type": "color"
           },
           "Neutral": {
-            "value": "rgba({Content.Feedback.Neutral},0.1)",
+            "value": "rgba({Text.Feedback.Neutral},0.1)",
             "type": "color"
           }
         }
       },
       "Input": {
-        "Default": {
-          "value": "{Neutrals.1000}",
-          "type": "color"
+        "Text": {
+          "Resting": {
+            "value": "{Neutrals.100}",
+            "type": "color"
+          },
+          "Pressed": {
+            "value": "{Neutrals.80}",
+            "type": "color"
+          }
         },
-        "Typing": {
-          "value": "{Neutrals.80}",
-          "type": "color"
+        "Search": {
+          "Resting": {
+            "value": "{Neutrals.1000}",
+            "type": "color"
+          },
+          "Pressed": {
+            "value": "{Neutrals.1000}",
+            "type": "color"
+          }
         },
-        "Disabled": {
-          "value": "$Neutrals.140",
-          "type": "color"
-        }
-      },
-      "Search": {
-        "Default": {
-          "value": "{Neutrals.80}",
-          "type": "color"
-        },
-        "Hovered": {
-          "value": "{Neutrals.140}",
-          "type": "color"
-        },
-        "Pressed": {
-          "value": "{Neutrals.100}",
-          "type": "color"
-        },
-        "Focused": {
-          "value": "{Neutrals.120}",
-          "type": "color"
-        }
-      },
-      "Select": {
-        "Default": {
-          "value": "{Neutrals.200}",
-          "type": "color"
-        },
-        "Default-Hovered": {
-          "value": "{Neutrals.220}",
-          "type": "color"
-        },
-        "Filled": {
-          "value": "{Accent.600}",
-          "type": "color"
-        },
-        "Filled-Hovered": {
-          "value": "{Accent.600}",
-          "type": "color"
-        },
-        "Disabled": {
-          "value": "{Neutrals.280}",
-          "type": "color"
+        "Select": {
+          "Active": {
+            "value": "{Accent.500}",
+            "type": "color"
+          },
+          "Pressed": {
+            "value": "{Accent.600}",
+            "type": "color"
+          },
+          "Disabled": {
+            "value": "{Neutrals.780}",
+            "type": "color"
+          }
         }
       }
     },
-    "Content": {
+    "Text": {
       "Default": {
         "Highlight": {
           "value": "$Neutrals.80",
@@ -2466,7 +2420,7 @@
           "type": "color"
         },
         "Neutral": {
-          "value": "$Content.Default.Tertiary",
+          "value": "{Text.Default.Tertiary}",
           "type": "color"
         }
       },
@@ -2540,11 +2494,11 @@
       },
       "Input": {
         "Placeholder": {
-          "value": "$Content.Default.Muted",
+          "value": "{Text.Default.Muted}",
           "type": "color"
         },
         "Filled": {
-          "value": "$Content.Default.Primary",
+          "value": "{Text.Default.Primary}",
           "type": "color"
         },
         "Disabled": {
@@ -2555,11 +2509,11 @@
       "Interactive": {
         "Primary": {
           "Default": {
-            "value": "{Content.Default.Highlight}",
+            "value": "{Text.Default.Highlight}",
             "type": "color"
           },
           "Disabled": {
-            "value": "$Content.Default.Muted",
+            "value": "{Text.Default.Muted}",
             "type": "color"
           }
         },
@@ -2569,27 +2523,27 @@
             "type": "color"
           },
           "Disabled": {
-            "value": "$Content.Default.Muted",
+            "value": "{Text.Default.Muted}",
             "type": "color"
           }
         },
         "Tertiary": {
           "Default": {
-            "value": "{Content.Default.Tertiary}",
+            "value": "{Text.Default.Tertiary}",
             "type": "color"
           },
           "Disabled": {
-            "value": "$Content.Default.Muted",
+            "value": "{Text.Default.Muted}",
             "type": "color"
           }
         },
         "Flat": {
           "Default": {
-            "value": "$Content.Default.Secondary",
+            "value": "{Text.Default.Secondary}",
             "type": "color"
           },
           "Hovered": {
-            "value": "{Content.Default.Highlight}",
+            "value": "{Text.Default.Highlight}",
             "type": "color"
           },
           "Selected": {
@@ -2597,7 +2551,7 @@
             "type": "color"
           },
           "Disabled": {
-            "value": "$Content.Default.Muted",
+            "value": "{Text.Default.Muted}",
             "type": "color"
           }
         },
@@ -2611,25 +2565,25 @@
             "type": "color"
           },
           "Disabled": {
-            "value": "$Content.Default.Muted",
+            "value": "{Text.Default.Muted}",
             "type": "color"
           }
         },
         "Bucket": {
           "Default": {
-            "value": "$Content.Default.Tertiary",
+            "value": "{Text.Default.Tertiary}",
             "type": "color"
           },
           "Hovered": {
-            "value": "{Content.Default.Highlight}",
+            "value": "{Text.Default.Highlight}",
             "type": "color"
           },
           "Selected": {
-            "value": "{Content.Default.Highlight}",
+            "value": "{Text.Default.Highlight}",
             "type": "color"
           },
           "Disabled": {
-            "value": "$Content.Default.Muted",
+            "value": "{Text.Default.Muted}",
             "type": "color"
           }
         }
@@ -2646,24 +2600,6 @@
       }
     },
     "Border": {
-      "Default": {
-        "Outline": {
-          "value": "$Neutrals.940",
-          "type": "color"
-        },
-        "Muted": {
-          "value": "$Neutrals.900",
-          "type": "color"
-        },
-        "Hovered": {
-          "value": "{Neutrals.280}",
-          "type": "color"
-        },
-        "Focused": {
-          "value": "{Neutrals.820}",
-          "type": "color"
-        }
-      },
       "Feedback": {
         "Alert": {
           "value": "{Alert.700}",
@@ -2686,7 +2622,7 @@
           "type": "color"
         },
         "Neutral": {
-          "value": "rgba({Content.Feedback.Neutral},0.2)",
+          "value": "rgba({Text.Feedback.Neutral},0.2)",
           "type": "color"
         },
         "Accent": {
@@ -2695,23 +2631,23 @@
         },
         "Opacity": {
           "Alert": {
-            "value": "rgba({Content.Feedback.Alert},0.1)",
+            "value": "rgba({Text.Feedback.Alert},0.1)",
             "type": "color"
           },
           "Success": {
-            "value": "rgba({Content.Feedback.Success},0.1)",
+            "value": "rgba({Text.Feedback.Success},0.1)",
             "type": "color"
           },
           "Warning": {
-            "value": "rgba({Content.Feedback.Warning},0.1)",
+            "value": "rgba({Text.Feedback.Warning},0.1)",
             "type": "color"
           },
           "Smart": {
-            "value": "rgba({Content.Feedback.Smart},0.1)",
+            "value": "rgba({Text.Feedback.Smart},0.1)",
             "type": "color"
           },
           "Neutral": {
-            "value": "rgba({Content.Feedback.Neutral},0.1)",
+            "value": "rgba({Text.Feedback.Neutral},0.1)",
             "type": "color"
           }
         }
@@ -2719,67 +2655,67 @@
       "Decorative": {
         "Parts": {
           "Capability": {
-            "value": "rgba({Content.Decorative.Parts.Capability},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Capability},0.1)",
             "type": "color"
           },
           "Feature": {
-            "value": "rgba({Content.Decorative.Parts.Feature},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Feature},0.1)",
             "type": "color"
           },
           "Enhancement": {
-            "value": "rgba({Content.Decorative.Parts.Enhancement},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Enhancement},0.1)",
             "type": "color"
           },
           "Product": {
-            "value": "rgba({Content.Decorative.Parts.Product},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Product},0.1)",
             "type": "color"
           },
           "API": {
-            "value": "rgba({Content.Decorative.Parts.API},0.1)",
+            "value": "rgba({Text.Decorative.Parts.API},0.1)",
             "type": "color"
           },
           "API-Cluster": {
-            "value": "rgba({Content.Decorative.Parts.API-Cluster},0.1)",
+            "value": "rgba({Text.Decorative.Parts.API-Cluster},0.1)",
             "type": "color"
           },
           "Runnable": {
-            "value": "rgba({Content.Decorative.Parts.Runnable},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Runnable},0.1)",
             "type": "color"
           },
           "Linkable": {
-            "value": "rgba({Content.Decorative.Parts.Linkable},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Linkable},0.1)",
             "type": "color"
           },
           "Database": {
-            "value": "rgba({Content.Decorative.Parts.Database},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Database},0.1)",
             "type": "color"
           },
           "Sub-Feature": {
-            "value": "rgba({Content.Decorative.Parts.Sub-Feature},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Sub-Feature},0.1)",
             "type": "color"
           }
         },
         "Work": {
           "Issue": {
-            "value": "rgba({Content.Decorative.Work.Issue},0.1)",
+            "value": "rgba({Text.Decorative.Work.Issue},0.1)",
             "type": "color"
           },
           "Ticket": {
-            "value": "rgba({Content.Decorative.Work.Ticket},0.1)",
+            "value": "rgba({Text.Decorative.Work.Ticket},0.1)",
             "type": "color"
           },
           "Conversation": {
-            "value": "rgba({Content.Decorative.Work.Conversation},0.1)",
+            "value": "rgba({Text.Decorative.Work.Conversation},0.1)",
             "type": "color"
           }
         },
         "Identity": {
           "Issue": {
-            "value": "rgba({Content.Decorative.Identity.Customer},0.1)",
+            "value": "rgba({Text.Decorative.Identity.Customer},0.1)",
             "type": "color"
           },
           "Ticket": {
-            "value": "rgba({Content.Decorative.Identity.Developer},0.1)",
+            "value": "rgba({Text.Decorative.Identity.Developer},0.1)",
             "type": "color"
           }
         }
@@ -2835,7 +2771,7 @@
             "type": "color"
           },
           "Disabled": {
-            "value": "rgba($Border.Interactive.Primary.Default,0.2)",
+            "value": "rgba({Border.Interactive.Primary.Resting},0.2)",
             "type": "color"
           }
         },
@@ -2853,7 +2789,7 @@
             "type": "color"
           },
           "Disabled": {
-            "value": "rgba($Border.Interactive.Secondary.Default,0.2)",
+            "value": "rgba({Border.Interactive.Secondary.Resting},0.2)",
             "type": "color"
           }
         },
@@ -2920,6 +2856,24 @@
             "value": "{Neutrals.140}",
             "type": "color"
           }
+        }
+      },
+      "Outline": {
+        "01": {
+          "value": "$Neutrals.180",
+          "type": "color"
+        },
+        "00": {
+          "value": "$Neutrals.140",
+          "type": "color"
+        },
+        "02": {
+          "value": "{Neutrals.220}",
+          "type": "color"
+        },
+        "03": {
+          "value": "{Neutrals.240}",
+          "type": "color"
         }
       }
     },
@@ -3214,67 +3168,67 @@
       "Decorative": {
         "Parts": {
           "Capability": {
-            "value": "rgba({Content.Decorative.Parts.Capability},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Capability},0.1)",
             "type": "color"
           },
           "Feature": {
-            "value": "rgba({Content.Decorative.Parts.Feature},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Feature},0.1)",
             "type": "color"
           },
           "Enhancement": {
-            "value": "rgba({Content.Decorative.Parts.Enhancement},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Enhancement},0.1)",
             "type": "color"
           },
           "Product": {
-            "value": "rgba({Content.Decorative.Parts.Product},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Product},0.1)",
             "type": "color"
           },
           "API": {
-            "value": "rgba({Content.Decorative.Parts.API},0.1)",
+            "value": "rgba({Text.Decorative.Parts.API},0.1)",
             "type": "color"
           },
           "API-Cluster": {
-            "value": "rgba({Content.Decorative.Parts.API-Cluster},0.1)",
+            "value": "rgba({Text.Decorative.Parts.API-Cluster},0.1)",
             "type": "color"
           },
           "Runnable": {
-            "value": "rgba({Content.Decorative.Parts.Runnable},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Runnable},0.1)",
             "type": "color"
           },
           "Linkable": {
-            "value": "rgba({Content.Decorative.Parts.Linkable},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Linkable},0.1)",
             "type": "color"
           },
           "Database": {
-            "value": "rgba({Content.Decorative.Parts.Database},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Database},0.1)",
             "type": "color"
           },
           "Sub-Feature": {
-            "value": "rgba({Content.Decorative.Parts.Sub-Feature},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Sub-Feature},0.1)",
             "type": "color"
           }
         },
         "Work": {
           "Issue": {
-            "value": "rgba({Content.Decorative.Work.Issue},0.1)",
+            "value": "rgba({Text.Decorative.Work.Issue},0.1)",
             "type": "color"
           },
           "Ticket": {
-            "value": "rgba({Content.Decorative.Work.Ticket},0.1)",
+            "value": "rgba({Text.Decorative.Work.Ticket},0.1)",
             "type": "color"
           },
           "Conversation": {
-            "value": "rgba({Content.Decorative.Work.Conversation},0.1)",
+            "value": "rgba({Text.Decorative.Work.Conversation},0.1)",
             "type": "color"
           }
         },
         "Identity": {
           "Issue": {
-            "value": "rgba({Content.Decorative.Identity.Customer},0.1)",
+            "value": "rgba({Text.Decorative.Identity.Customer},0.1)",
             "type": "color"
           },
           "Ticket": {
-            "value": "rgba({Content.Decorative.Identity.Developer},0.1)",
+            "value": "rgba({Text.Decorative.Identity.Developer},0.1)",
             "type": "color"
           }
         }
@@ -3282,15 +3236,15 @@
       "Feedback": {
         "Full": {
           "Alert": {
-            "value": "{Content.Feedback.Alert}",
+            "value": "{Text.Feedback.Alert}",
             "type": "color"
           },
           "Success": {
-            "value": "{Content.Feedback.Success}",
+            "value": "{Text.Feedback.Success}",
             "type": "color"
           },
           "Warning": {
-            "value": "{Content.Feedback.Warning}",
+            "value": "{Text.Feedback.Warning}",
             "type": "color"
           },
           "White": {
@@ -3300,23 +3254,23 @@
         },
         "Opacity": {
           "Alert": {
-            "value": "rgba({Content.Feedback.Alert},0.1)",
+            "value": "rgba({Text.Feedback.Alert},0.1)",
             "type": "color"
           },
           "Success": {
-            "value": "rgba({Content.Feedback.Success},0.1)",
+            "value": "rgba({Text.Feedback.Success},0.1)",
             "type": "color"
           },
           "Warning": {
-            "value": "rgba({Content.Feedback.Warning},0.1)",
+            "value": "rgba({Text.Feedback.Warning},0.1)",
             "type": "color"
           },
           "Smart": {
-            "value": "rgba({Content.Feedback.Smart},0.1)",
+            "value": "rgba({Text.Feedback.Smart},0.1)",
             "type": "color"
           },
           "Neutral": {
-            "value": "rgba({Content.Feedback.Neutral},0.1)",
+            "value": "rgba({Text.Feedback.Neutral},0.1)",
             "type": "color"
           }
         }
@@ -3415,7 +3369,7 @@
           "type": "color"
         },
         "Neutral": {
-          "value": "$Content.Default.Tertiary",
+          "value": "{Text.Default.Tertiary}",
           "type": "color"
         }
       },
@@ -3489,64 +3443,64 @@
       },
       "Input": {
         "Placeholder": {
-          "value": "$Content.Default.Muted",
+          "value": "{Text.Default.Muted}",
           "type": "color"
         },
         "Filled": {
-          "value": "$Content.Default.Primary",
+          "value": "{Text.Default.Primary}",
           "type": "color"
         },
         "Disabled": {
-          "value": "$Content.Default.Muted",
+          "value": "{Text.Default.Muted}",
           "type": "color"
         }
       },
       "Interactive": {
         "Primary": {
           "Default": {
-            "value": "{Content.Default.Highlight}",
+            "value": "{Text.Default.Highlight}",
             "type": "color"
           },
           "Disabled": {
-            "value": "$Content.Default.Muted",
+            "value": "{Text.Default.Muted}",
             "type": "color"
           }
         },
         "Secondary": {
           "Default": {
-            "value": "{Content.Default.Highlight}",
+            "value": "{Text.Default.Highlight}",
             "type": "color"
           },
           "Disabled": {
-            "value": "$Content.Default.Muted",
+            "value": "{Text.Default.Muted}",
             "type": "color"
           }
         },
         "Tertiary": {
           "Default": {
-            "value": "{Content.Default.Secondary}",
+            "value": "{Text.Default.Secondary}",
             "type": "color"
           },
           "Disabled": {
-            "value": "$Content.Default.Muted",
+            "value": "{Text.Default.Muted}",
             "type": "color"
           }
         },
         "Flat": {
           "Default": {
-            "value": "$Content.Default.Secondary",
+            "value": "{Text.Default.Secondary}",
             "type": "color"
           },
           "Hovered": {
-            "value": "{Content.Default.Highlight}",
+            "value": "{Text.Default.Highlight}",
             "type": "color"
           },
           "Selected": {
-            "value": "{Content.Default.Highlight}",
+            "value": "{Text.Default.Highlight}",
             "type": "color"
           },
           "Disabled": {
-            "value": "$Content.Default.Muted",
+            "value": "{Text.Default.Muted}",
             "type": "color"
           }
         }
@@ -3603,28 +3557,28 @@
           "type": "color"
         },
         "Neutral": {
-          "value": "rgba({Content.Feedback.Neutral},0.1)",
+          "value": "rgba({Text.Feedback.Neutral},0.1)",
           "type": "color"
         },
         "Opacity": {
           "Alert": {
-            "value": "rgba({Content.Feedback.Alert},0.1)",
+            "value": "rgba({Text.Feedback.Alert},0.1)",
             "type": "color"
           },
           "Success": {
-            "value": "rgba({Content.Feedback.Success},0.1)",
+            "value": "rgba({Text.Feedback.Success},0.1)",
             "type": "color"
           },
           "Warning": {
-            "value": "rgba({Content.Feedback.Warning},0.1)",
+            "value": "rgba({Text.Feedback.Warning},0.1)",
             "type": "color"
           },
           "Smart": {
-            "value": "rgba({Content.Feedback.Smart},0.1)",
+            "value": "rgba({Text.Feedback.Smart},0.1)",
             "type": "color"
           },
           "Neutral": {
-            "value": "rgba({Content.Feedback.Neutral},0.1)",
+            "value": "rgba({Text.Feedback.Neutral},0.1)",
             "type": "color"
           }
         }
@@ -3632,67 +3586,67 @@
       "Decorative": {
         "Parts": {
           "Capability": {
-            "value": "rgba({Content.Decorative.Parts.Capability},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Capability},0.1)",
             "type": "color"
           },
           "Feature": {
-            "value": "rgba({Content.Decorative.Parts.Feature},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Feature},0.1)",
             "type": "color"
           },
           "Enhancement": {
-            "value": "rgba({Content.Decorative.Parts.Enhancement},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Enhancement},0.1)",
             "type": "color"
           },
           "Product": {
-            "value": "rgba({Content.Decorative.Parts.Product},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Product},0.1)",
             "type": "color"
           },
           "API": {
-            "value": "rgba({Content.Decorative.Parts.API},0.1)",
+            "value": "rgba({Text.Decorative.Parts.API},0.1)",
             "type": "color"
           },
           "API-Cluster": {
-            "value": "rgba({Content.Decorative.Parts.API-Cluster},0.1)",
+            "value": "rgba({Text.Decorative.Parts.API-Cluster},0.1)",
             "type": "color"
           },
           "Runnable": {
-            "value": "rgba({Content.Decorative.Parts.Runnable},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Runnable},0.1)",
             "type": "color"
           },
           "Linkable": {
-            "value": "rgba({Content.Decorative.Parts.Linkable},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Linkable},0.1)",
             "type": "color"
           },
           "Database": {
-            "value": "rgba({Content.Decorative.Parts.Database},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Database},0.1)",
             "type": "color"
           },
           "Sub-Feature": {
-            "value": "rgba({Content.Decorative.Parts.Sub-Feature},0.1)",
+            "value": "rgba({Text.Decorative.Parts.Sub-Feature},0.1)",
             "type": "color"
           }
         },
         "Work": {
           "Issue": {
-            "value": "rgba({Content.Decorative.Work.Issue},0.1)",
+            "value": "rgba({Text.Decorative.Work.Issue},0.1)",
             "type": "color"
           },
           "Ticket": {
-            "value": "rgba({Content.Decorative.Work.Ticket},0.1)",
+            "value": "rgba({Text.Decorative.Work.Ticket},0.1)",
             "type": "color"
           },
           "Conversation": {
-            "value": "rgba({Content.Decorative.Work.Conversation},0.1)",
+            "value": "rgba({Text.Decorative.Work.Conversation},0.1)",
             "type": "color"
           }
         },
         "Identity": {
           "Issue": {
-            "value": "rgba({Content.Decorative.Identity.Customer},0.1)",
+            "value": "rgba({Text.Decorative.Identity.Customer},0.1)",
             "type": "color"
           },
           "Ticket": {
-            "value": "rgba({Content.Decorative.Identity.Developer},0.1)",
+            "value": "rgba({Text.Decorative.Identity.Developer},0.1)",
             "type": "color"
           }
         }
@@ -3748,7 +3702,7 @@
             "type": "color"
           },
           "Disabled": {
-            "value": "rgba($Border.Interactive.Primary.Default,0.2)",
+            "value": "rgba({Border.Interactive.Primary.Resting},0.2)",
             "type": "color"
           }
         },
@@ -3766,7 +3720,7 @@
             "type": "color"
           },
           "Disabled": {
-            "value": "rgba($Border.Interactive.Secondary.Default,0.2)",
+            "value": "rgba({Border.Interactive.Secondary.Resting},0.2)",
             "type": "color"
           }
         },
