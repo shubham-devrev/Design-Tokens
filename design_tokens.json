@@ -2305,11 +2305,11 @@
       "Input": {
         "Text": {
           "Resting": {
-            "value": "{Neutrals.100}",
+            "value": "{Neutrals.960}",
             "type": "color"
           },
           "Pressed": {
-            "value": "{Neutrals.80}",
+            "value": "{Neutrals.1000}",
             "type": "color"
           }
         },
@@ -2677,19 +2677,19 @@
     "Border": {
       "Outline": {
         "01": {
-          "value": "$Neutrals.180",
+          "value": "$Neutrals.940",
           "type": "color"
         },
         "00": {
-          "value": "$Neutrals.140",
+          "value": "$Neutrals.920",
           "type": "color"
         },
         "02": {
-          "value": "{Neutrals.220}",
+          "value": "{Neutrals.940}",
           "type": "color"
         },
         "03": {
-          "value": "{Neutrals.240}",
+          "value": "{Neutrals.940}",
           "type": "color"
         }
       },
@@ -2816,37 +2816,37 @@
       "Input": {
         "Text": {
           "Resting": {
-            "value": "$Neutrals.220",
+            "value": "$Neutrals.920",
             "type": "color"
           },
           "Hovered": {
-            "value": "{Neutrals.280}",
+            "value": "{Neutrals.880}",
             "type": "color"
           },
           "Pressed": {
-            "value": "{Neutrals.360}",
+            "value": "{Neutrals.820}",
             "type": "color"
           }
         },
         "Select": {
           "Resting": {
-            "value": "{Neutrals.480}",
+            "value": "{Neutrals.860}",
             "type": "color"
           },
           "Hovered": {
-            "value": "{Neutrals.560}",
+            "value": "{Neutrals.820}",
             "type": "color"
           },
           "Active": {
-            "value": "{Accent.600}",
+            "value": "{Accent.400}",
             "type": "color"
           },
           "Pressed": {
-            "value": "{Accent.700}",
+            "value": "{Accent.300}",
             "type": "color"
           },
           "Disabled": {
-            "value": "{Neutrals.320}",
+            "value": "{Neutrals.900}",
             "type": "color"
           }
         },
