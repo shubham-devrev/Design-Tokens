@@ -47,6 +47,53 @@
         "type": "Variables"
       }
     },
+    "Smart": {
+      "100": {
+        "value": "hsla({Smart.hue}, {Smart.saturation}%, 44%, 1)",
+        "type": "color"
+      },
+      "200": {
+        "value": "hsla({Smart.hue}, {Smart.saturation}%, 50%, 1)",
+        "type": "color"
+      },
+      "300": {
+        "value": "hsla({Smart.hue}, {Smart.saturation}%, 54%, 1)",
+        "type": "color"
+      },
+      "400": {
+        "value": "hsla({Smart.hue}, {Smart.saturation}%, 60%, 1)",
+        "type": "color"
+      },
+      "500": {
+        "value": "hsla({Smart.hue}, {Smart.saturation}%, 63%, 1)",
+        "type": "color"
+      },
+      "600": {
+        "value": "hsla({Smart.hue}, {Smart.saturation}%, 69%, 1)",
+        "type": "color"
+      },
+      "700": {
+        "value": "hsla({Smart.hue}, {Smart.saturation}%, 74%, 1)",
+        "type": "color"
+      },
+      "800": {
+        "value": "hsla({Smart.hue}, {Smart.saturation}%, 78%, 1)",
+        "type": "color"
+      },
+      "900": {
+        "value": "hsla({Smart.hue}, {Smart.saturation}%, 84%, 1)",
+        "type": "color"
+      },
+      "hue": {
+        "value": "256",
+        "type": "Variables",
+        "description": "Accent color used to control theming"
+      },
+      "saturation": {
+        "value": "97",
+        "type": "Variables"
+      }
+    },
     "Warning": {
       "150": {
         "value": "hsla({Warning.hue}, {Warning.saturation}%, 34%, 1)",
@@ -1146,7 +1193,7 @@
           "type": "color"
         },
         "01": {
-          "value": "$Neutrals.120",
+          "value": "$Neutrals.140",
           "type": "color"
         },
         "02": {
@@ -1160,19 +1207,11 @@
         "04": {
           "value": "$Neutrals.200",
           "type": "color"
-        },
-        "05": {
-          "value": "$Neutrals.220",
-          "type": "color"
-        },
-        "06": {
-          "value": "{Neutrals.280}",
-          "type": "color"
         }
       },
       "Interactive": {
         "Primary": {
-          "Default": {
+          "Resting": {
             "value": "{Accent.500}",
             "type": "color"
           },
@@ -1180,21 +1219,13 @@
             "value": "{Accent.600}",
             "type": "color"
           },
-          "Selected": {
+          "Pressed": {
             "value": "{Accent.700}",
-            "type": "color"
-          },
-          "Focused": {
-            "value": "{Accent.700}",
-            "type": "color"
-          },
-          "Disabled": {
-            "value": "rgba({Accent.500},0.2)",
             "type": "color"
           }
         },
         "Secondary": {
-          "Default": {
+          "Resting": {
             "value": "$Neutrals.220",
             "type": "color"
           },
@@ -1202,43 +1233,23 @@
             "value": "{Neutrals.280}",
             "type": "color"
           },
-          "Selected": {
+          "Pressed": {
             "value": "{Neutrals.320}",
-            "type": "color"
-          },
-          "Focused": {
-            "value": "$Neutrals.220",
-            "type": "color"
-          },
-          "Disabled": {
-            "value": "rgba($Background.Interactive.Secondary.Default,0.2)",
             "type": "color"
           }
         },
         "Tertiary": {
-          "Default": {
-            "value": "rgba({Neutrals.280},0)",
-            "type": "color"
-          },
           "Hovered": {
             "value": "$Neutrals.200",
             "type": "color"
           },
-          "Selected": {
+          "Pressed": {
             "value": "{Neutrals.280}",
-            "type": "color"
-          },
-          "Focused": {
-            "value": "$Neutrals.200",
-            "type": "color"
-          },
-          "Disabled": {
-            "value": "{Background.Interactive.Tertiary.Default}",
             "type": "color"
           }
         },
         "Destructive": {
-          "Default": {
+          "Resting": {
             "value": "{Alert.500}",
             "type": "color"
           },
@@ -1246,16 +1257,8 @@
             "value": "{Alert.600}",
             "type": "color"
           },
-          "Selected": {
+          "Pressed": {
             "value": "{Alert.700}",
-            "type": "color"
-          },
-          "Focused": {
-            "value": "{Alert.500}",
-            "type": "color"
-          },
-          "Disabled": {
-            "value": "rgba($Background.Interactive.Destructive.Default,0.2)",
             "type": "color"
           }
         },
@@ -1264,13 +1267,13 @@
             "value": "$Neutrals.180",
             "type": "color"
           },
-          "Selected": {
+          "Pressed": {
             "value": "{Neutrals.220}",
             "type": "color"
           }
         },
         "Bucket": {
-          "Default": {
+          "Resting": {
             "value": "$Neutrals.140",
             "type": "color"
           },
@@ -1278,12 +1281,22 @@
             "value": "$Neutrals.160",
             "type": "color"
           },
-          "Selected": {
+          "Pressed": {
             "value": "$Neutrals.180",
             "type": "color"
+          }
+        },
+        "Smart": {
+          "Resting": {
+            "value": "{Decoratives.Voilet.500}",
+            "type": "color"
           },
-          "Disabled": {
-            "value": "{Neutrals.120}",
+          "Hovered": {
+            "value": "{Decoratives.Voilet.600}",
+            "type": "color"
+          },
+          "Pressed": {
+            "value": "{Decoratives.Voilet.650}",
             "type": "color"
           }
         }
@@ -1939,7 +1952,7 @@
             "type": "color"
           },
           "Disabled": {
-            "value": "rgba($Background.Interactive.Destructive.Default,0.2)",
+            "value": "rgba({Background.Interactive.Destructive.Resting},0.2)",
             "type": "color"
           }
         },
@@ -2125,29 +2138,21 @@
           "type": "color"
         },
         "02": {
-          "value": "$Neutrals.960",
+          "value": "$Neutrals.1000",
           "type": "color"
         },
         "03": {
-          "value": "$Neutrals.180",
+          "value": "$Neutrals.1000",
           "type": "color"
         },
         "04": {
-          "value": "$Neutrals.200",
-          "type": "color"
-        },
-        "05": {
-          "value": "$Neutrals.220",
-          "type": "color"
-        },
-        "06": {
-          "value": "{Neutrals.280}",
+          "value": "$Neutrals.1000",
           "type": "color"
         }
       },
       "Interactive": {
         "Primary": {
-          "Default": {
+          "Resting": {
             "value": "{Accent.500}",
             "type": "color"
           },
@@ -2155,82 +2160,46 @@
             "value": "{Accent.400}",
             "type": "color"
           },
-          "Selected": {
+          "Pressed": {
             "value": "{Accent.300}",
-            "type": "color"
-          },
-          "Focused": {
-            "value": "{Accent.500}",
-            "type": "color"
-          },
-          "Disabled": {
-            "value": "rgba({Accent.500},0.2)",
             "type": "color"
           }
         },
         "Secondary": {
-          "Default": {
+          "Resting": {
             "value": "$Neutrals.1000",
             "type": "color"
           },
           "Hovered": {
-            "value": "{Neutrals.280}",
+            "value": "{Neutrals.960}",
             "type": "color"
           },
-          "Selected": {
-            "value": "{Neutrals.320}",
-            "type": "color"
-          },
-          "Focused": {
-            "value": "$Neutrals.220",
-            "type": "color"
-          },
-          "Disabled": {
-            "value": "rgba($Background.Interactive.Secondary.Default,0.2)",
+          "Pressed": {
+            "value": "{Neutrals.920}",
             "type": "color"
           }
         },
         "Tertiary": {
-          "Default": {
-            "value": "rgba({Neutrals.280},0)",
-            "type": "color"
-          },
           "Hovered": {
-            "value": "$Neutrals.200",
+            "value": "$Neutrals.960",
             "type": "color"
           },
-          "Selected": {
-            "value": "$Neutrals.840",
-            "type": "color"
-          },
-          "Focused": {
-            "value": "$Neutrals.200",
-            "type": "color"
-          },
-          "Disabled": {
-            "value": "{Background.Interactive.Tertiary.Default}",
+          "Pressed": {
+            "value": "$Neutrals.920",
             "type": "color"
           }
         },
         "Destructive": {
-          "Default": {
+          "Resting": {
             "value": "{Alert.500}",
             "type": "color"
           },
           "Hovered": {
-            "value": "{Alert.600}",
+            "value": "{Alert.400}",
             "type": "color"
           },
-          "Selected": {
-            "value": "{Alert.700}",
-            "type": "color"
-          },
-          "Focused": {
-            "value": "{Alert.500}",
-            "type": "color"
-          },
-          "Disabled": {
-            "value": "rgba($Background.Interactive.Destructive.Default,0.2)",
+          "Pressed": {
+            "value": "{Alert.300}",
             "type": "color"
           }
         },
@@ -2239,26 +2208,36 @@
             "value": "$Neutrals.180",
             "type": "color"
           },
-          "Selected": {
+          "Pressed": {
             "value": "{Accent.600}",
             "type": "color"
           }
         },
         "Bucket": {
-          "Default": {
+          "Resting": {
             "value": "$Neutrals.980",
             "type": "color"
           },
           "Hovered": {
-            "value": "$Neutrals.160",
+            "value": "$Neutrals.940",
             "type": "color"
           },
           "Selected": {
             "value": "$Neutrals.1000",
             "type": "color"
+          }
+        },
+        "Smart": {
+          "Resting": {
+            "value": "{Smart.500}",
+            "type": "color"
           },
-          "Disabled": {
-            "value": "{Neutrals.120}",
+          "Hovered": {
+            "value": "{Smart.400}",
+            "type": "color"
+          },
+          "Pressed": {
+            "value": "{Smart.300}",
             "type": "color"
           }
         }
@@ -2914,7 +2893,7 @@
             "type": "color"
           },
           "Disabled": {
-            "value": "rgba($Background.Interactive.Destructive.Default,0.2)",
+            "value": "rgba({Background.Interactive.Destructive.Resting},0.2)",
             "type": "color"
           }
         },
@@ -3005,19 +2984,19 @@
       "01": {
         "value": [
           {
-            "color": "rgba({Accent.100},0.25)",
+            "color": "rgba({Neutrals.80},0.10)",
             "type": "dropShadow",
             "x": "0",
             "y": "0",
-            "blur": "1",
+            "blur": "2",
             "spread": "0"
           },
           {
-            "color": "rgba({Accent.100},0.05)",
+            "color": "rgba({Neutrals.80},0.05)",
             "type": "dropShadow",
             "x": "0",
             "y": "2",
-            "blur": "1",
+            "blur": "4",
             "spread": "0"
           }
         ],
@@ -3026,19 +3005,19 @@
       "02": {
         "value": [
           {
-            "color": "rgba({Accent.100},0.1)",
+            "color": "rgba({Neutrals.80},0.12)",
             "type": "dropShadow",
             "x": "0",
             "y": "2",
-            "blur": "10",
+            "blur": "12",
             "spread": "0"
           },
           {
-            "color": "rgba({Accent.100},0.20)",
+            "color": "rgba({Neutrals.80},0.05)",
             "type": "dropShadow",
             "x": "0",
             "y": "0",
-            "blur": "2",
+            "blur": "6",
             "spread": "0"
           }
         ],
@@ -3047,19 +3026,19 @@
       "03": {
         "value": [
           {
-            "color": "rgba({Accent.100},0.1)",
+            "color": "rgba({Neutrals.80},0.05)",
             "type": "dropShadow",
             "x": "0",
             "y": "0",
-            "blur": "0",
+            "blur": "6",
             "spread": "1"
           },
           {
-            "color": "rgba({Accent.100},0.08)",
+            "color": "rgba({Neutrals.80},0.08)",
             "type": "dropShadow",
             "x": "0",
             "y": "2",
-            "blur": "16",
+            "blur": "24",
             "spread": "0"
           }
         ],
@@ -3068,18 +3047,18 @@
       "04": {
         "value": [
           {
-            "color": "rgba({Accent.100},0.20)",
+            "color": "rgba({Neutrals.80},0.10)",
             "type": "dropShadow",
             "x": "0",
-            "y": "0",
-            "blur": "1",
+            "y": "4",
+            "blur": "12",
             "spread": "0"
           },
           {
-            "color": "rgba({Accent.100},0.20)",
+            "color": "rgba({Neutrals.80},0.20)",
             "type": "dropShadow",
             "x": "0",
-            "y": "26",
+            "y": "32",
             "blur": "80",
             "spread": "0"
           }
@@ -3161,7 +3140,7 @@
             "type": "color"
           },
           "Disabled": {
-            "value": "rgba($Background.Interactive.Secondary.Default,0.2)",
+            "value": "rgba({Background.Interactive.Secondary.Resting},0.2)",
             "type": "color"
           }
         },
@@ -3227,7 +3206,7 @@
             "type": "color"
           },
           "Disabled": {
-            "value": "rgba($Background.Interactive.Destructive.Default,0.2)",
+            "value": "rgba({Background.Interactive.Destructive.Resting},0.2)",
             "type": "color"
           }
         }
@@ -3845,30 +3824,20 @@
             "type": "color"
           },
           "Disabled": {
-            "value": "rgba($Background.Interactive.Destructive.Default,0.2)",
+            "value": "rgba({Background.Interactive.Destructive.Resting},0.2)",
             "type": "color"
           }
         }
       }
     }
   },
-  "Scale/Desktop": {},
-  "Scale/Mobile": {},
-  "Dark Themes/Neon": {},
-  "Dark Themes/Ash": {},
-  "Shadow/Dark": {},
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
       "Colors/Core",
       "Colors/Dark Mode",
       "Colors/Light",
-      "Colors/Dark Mode_Mobile",
-      "Scale/Desktop",
-      "Scale/Mobile",
-      "Dark Themes/Neon",
-      "Dark Themes/Ash",
-      "Shadow/Dark"
+      "Colors/Dark Mode_Mobile"
     ]
   }
 }
