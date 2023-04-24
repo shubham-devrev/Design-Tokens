@@ -2852,15 +2852,15 @@
         },
         "Search": {
           "Resting": {
-            "value": "$Neutrals.140",
+            "value": "$Neutrals.960",
             "type": "color"
           },
           "Hovered": {
-            "value": "{Neutrals.200}",
+            "value": "{Neutrals.920}",
             "type": "color"
           },
           "Pressed": {
-            "value": "{Neutrals.400}",
+            "value": "{Neutrals.880}",
             "type": "color"
           }
         }
