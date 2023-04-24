@@ -2868,53 +2868,53 @@
       "Interactive": {
         "Primary": {
           "Resting": {
-            "value": "{Accent.600}",
+            "value": "{Accent.400}",
             "type": "color"
           },
           "Hovered": {
-            "value": "{Accent.700}",
+            "value": "{Accent.300}",
             "type": "color"
           },
           "Pressed": {
-            "value": "{Accent.800}",
+            "value": "{Accent.200}",
             "type": "color"
           }
         },
         "Secondary": {
           "Resting": {
-            "value": "{Neutrals.280}",
+            "value": "{Neutrals.960}",
             "type": "color"
           },
           "Hovered": {
-            "value": "{Neutrals.320}",
+            "value": "{Neutrals.920}",
             "type": "color"
           },
           "Pressed": {
-            "value": "{Neutrals.560}",
+            "value": "{Neutrals.900}",
             "type": "color"
           }
         },
         "Tertiary": {
           "Hovered": {
-            "value": "{Neutrals.280}",
+            "value": "{Neutrals.960}",
             "type": "color"
           },
           "Pressed": {
-            "value": "{Neutrals.320}",
+            "value": "{Neutrals.920}",
             "type": "color"
           }
         },
         "Destructive": {
           "Resting": {
-            "value": "{Alert.600}",
+            "value": "{Alert.400}",
             "type": "color"
           },
           "Hovered": {
-            "value": "{Alert.700}",
+            "value": "{Alert.300}",
             "type": "color"
           },
           "Pressed": {
-            "value": "{Alert.800}",
+            "value": "{Alert.200}",
             "type": "color"
           }
         },
@@ -2930,29 +2930,29 @@
         },
         "Bucket": {
           "Resting": {
-            "value": "$Neutrals.180",
+            "value": "$Neutrals.940",
             "type": "color"
           },
           "Hovered": {
-            "value": "$Neutrals.200",
+            "value": "$Neutrals.900",
             "type": "color"
           },
           "Pressed": {
-            "value": "$Neutrals.220",
+            "value": "$Neutrals.960",
             "type": "color"
           }
         },
         "Smart": {
           "Resting": {
-            "value": "{Smart.600}",
+            "value": "{Smart.400}",
             "type": "color"
           },
           "Hovered": {
-            "value": "{Smart.700}",
+            "value": "{Smart.300}",
             "type": "color"
           },
           "Pressed": {
-            "value": "{Smart.800}",
+            "value": "{Smart.200}",
             "type": "color"
           }
         }
