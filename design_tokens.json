@@ -22,11 +22,11 @@
         "type": "color"
       },
       "600": {
-        "value": "hsla({Accent.hue}, {Accent.saturation}%, 61%, 1)",
+        "value": "hsla({Accent.hue}, {Accent.saturation}%, 65%, 1)",
         "type": "color"
       },
       "700": {
-        "value": "hsla({Accent.hue}, {Accent.saturation}%, 69%, 1)",
+        "value": "hsla({Accent.hue}, {Accent.saturation}%, 72%, 1)",
         "type": "color"
       },
       "800": {
@@ -85,12 +85,12 @@
         "type": "color"
       },
       "hue": {
-        "value": "256",
+        "value": "252",
         "type": "Variables",
         "description": "Accent color used to control theming"
       },
       "saturation": {
-        "value": "97",
+        "value": "54",
         "type": "Variables"
       }
     },
@@ -132,12 +132,12 @@
         "type": "color"
       },
       "hue": {
-        "value": "48",
+        "value": "50",
         "type": "Variables",
         "description": "Accent color used to control theming"
       },
       "saturation": {
-        "value": "74",
+        "value": "100",
         "type": "Variables"
       }
     },
@@ -167,7 +167,7 @@
         "type": "color"
       },
       "750": {
-        "value": "hsla({Success.hue}, {Success.saturation}%, 71%, 1)",
+        "value": "hsla({Success.hue}, {Success.saturation}%, 64%, 1)",
         "type": "color"
       },
       "850": {
@@ -179,12 +179,12 @@
         "type": "color"
       },
       "hue": {
-        "value": "141",
+        "value": "135",
         "type": "Variables",
         "description": "Success color used to control theming"
       },
       "saturation": {
-        "value": "70",
+        "value": "53",
         "type": "Variables"
       }
     },
@@ -206,19 +206,19 @@
         "type": "color"
       },
       "500": {
-        "value": "hsla({Alert.hue}, {Alert.saturation}%, 50%, 1)",
-        "type": "color"
-      },
-      "600": {
         "value": "hsla({Alert.hue}, {Alert.saturation}%, 60%, 1)",
         "type": "color"
       },
-      "700": {
+      "600": {
         "value": "hsla({Alert.hue}, {Alert.saturation}%, 64%, 1)",
         "type": "color"
       },
+      "700": {
+        "value": "hsla({Alert.hue}, {Alert.saturation}%, 74%, 1)",
+        "type": "color"
+      },
       "800": {
-        "value": "hsla({Alert.hue}, {Alert.saturation}%, 71%, 1)",
+        "value": "hsla({Alert.hue}, {Alert.saturation}%, 80%, 1)",
         "type": "color"
       },
       "900": {
@@ -226,11 +226,11 @@
         "type": "color"
       },
       "hue": {
-        "value": "356",
+        "value": "360",
         "type": "Variables"
       },
       "saturation": {
-        "value": "90",
+        "value": "72",
         "type": "Variables"
       }
     },
@@ -1268,21 +1268,21 @@
             "type": "color"
           },
           "Pressed": {
-            "value": "{Neutrals.220}",
+            "value": "{Accent.500}",
             "type": "color"
           }
         },
         "Bucket": {
           "Resting": {
-            "value": "$Neutrals.140",
+            "value": "$Neutrals.180",
             "type": "color"
           },
           "Hovered": {
-            "value": "$Neutrals.160",
+            "value": "$Neutrals.200",
             "type": "color"
           },
           "Pressed": {
-            "value": "$Neutrals.180",
+            "value": "$Neutrals.220",
             "type": "color"
           }
         },
@@ -1390,6 +1390,10 @@
           "Accent": {
             "value": "{Accent.500}",
             "type": "color"
+          },
+          "Smart": {
+            "value": "{Smart.500}",
+            "type": "color"
           }
         },
         "Opacity": {
@@ -1495,7 +1499,7 @@
           "type": "color"
         },
         "Warning": {
-          "value": "$Warning.650",
+          "value": "$Warning.750",
           "type": "color"
         },
         "Smart": {
@@ -1900,15 +1904,15 @@
         },
         "Bucket": {
           "Resting": {
-            "value": "$Neutrals.180",
+            "value": "$Neutrals.220",
             "type": "color"
           },
           "Hovered": {
-            "value": "$Neutrals.200",
+            "value": "$Neutrals.240",
             "type": "color"
           },
           "Pressed": {
-            "value": "$Neutrals.220",
+            "value": "$Neutrals.280",
             "type": "color"
           }
         },
