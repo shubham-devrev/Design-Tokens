@@ -49,39 +49,39 @@
     },
     "Smart": {
       "100": {
-        "value": "hsla({Smart.hue}, {Smart.saturation}%, 44%, 1)",
+        "value": "hsla({Smart.hue}, {Smart.saturation}%, 28%, 1)",
         "type": "color"
       },
       "200": {
-        "value": "hsla({Smart.hue}, {Smart.saturation}%, 50%, 1)",
+        "value": "hsla({Smart.hue}, {Smart.saturation}%, 34%, 1)",
         "type": "color"
       },
       "300": {
-        "value": "hsla({Smart.hue}, {Smart.saturation}%, 54%, 1)",
+        "value": "hsla({Smart.hue}, {Smart.saturation}%, 40%, 1)",
         "type": "color"
       },
       "400": {
-        "value": "hsla({Smart.hue}, {Smart.saturation}%, 60%, 1)",
+        "value": "hsla({Smart.hue}, {Smart.saturation}%, 47%, 1)",
         "type": "color"
       },
       "500": {
-        "value": "hsla({Smart.hue}, {Smart.saturation}%, 63%, 1)",
+        "value": "hsla({Smart.hue}, {Smart.saturation}%, 53%, 1)",
         "type": "color"
       },
       "600": {
-        "value": "hsla({Smart.hue}, {Smart.saturation}%, 69%, 1)",
+        "value": "hsla({Smart.hue}, {Smart.saturation}%, 59%, 1)",
         "type": "color"
       },
       "700": {
-        "value": "hsla({Smart.hue}, {Smart.saturation}%, 74%, 1)",
+        "value": "hsla({Smart.hue}, {Smart.saturation}%, 64%, 1)",
         "type": "color"
       },
       "800": {
-        "value": "hsla({Smart.hue}, {Smart.saturation}%, 78%, 1)",
+        "value": "hsla({Smart.hue}, {Smart.saturation}%, 70%, 1)",
         "type": "color"
       },
       "900": {
-        "value": "hsla({Smart.hue}, {Smart.saturation}%, 84%, 1)",
+        "value": "hsla({Smart.hue}, {Smart.saturation}%, 74%, 1)",
         "type": "color"
       },
       "hue": {
@@ -1288,15 +1288,15 @@
         },
         "Smart": {
           "Resting": {
-            "value": "{Decoratives.Voilet.500}",
+            "value": "{Smart.500}",
             "type": "color"
           },
           "Hovered": {
-            "value": "{Decoratives.Voilet.600}",
+            "value": "{Smart.600}",
             "type": "color"
           },
           "Pressed": {
-            "value": "{Decoratives.Voilet.650}",
+            "value": "{Smart.700}",
             "type": "color"
           }
         }
@@ -1536,7 +1536,7 @@
             "type": "color"
           },
           "Pressed": {
-            "value": "{Neutrals.560}",
+            "value": "{Neutrals.360}",
             "type": "color"
           }
         },
@@ -1605,11 +1605,11 @@
       },
       "Transparent": {
         "01": {
-          "value": "rgba($Neutrals.80,0.05)",
+          "value": "rgba($Neutrals.1000,0.05)",
           "type": "color"
         },
         "02": {
-          "value": "rgba($Neutrals.80,0.1)",
+          "value": "rgba($Neutrals.1000,0.1)",
           "type": "color"
         }
       }
@@ -1800,11 +1800,11 @@
           "type": "color"
         },
         "Issue-10": {
-          "value": "rgba({Color.Object.Customer},0.1)",
+          "value": "rgba({Color.Object.Issue},0.1)",
           "type": "color"
         },
         "Ticket-10": {
-          "value": "rgba({Color.Object.Developer},0.1)",
+          "value": "rgba({Color.Object.Ticket},0.1)",
           "type": "color"
         },
         "Conversation-10": {
