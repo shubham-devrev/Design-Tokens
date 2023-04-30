@@ -1400,6 +1400,10 @@
             "type": "color"
           },
           "Hovered": {
+            "value": "{Text.Color.Primary}",
+            "type": "color"
+          },
+          "Active": {
             "value": "{Text.Color.Highlight}",
             "type": "color"
           }
@@ -2448,6 +2452,10 @@
             "type": "color"
           },
           "Hovered": {
+            "value": "{Text.Color.Primary}",
+            "type": "color"
+          },
+          "Active": {
             "value": "{Text.Color.Highlight}",
             "type": "color"
           }
