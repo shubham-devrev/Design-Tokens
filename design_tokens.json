@@ -2028,7 +2028,7 @@
             "value": "$Neutrals.940",
             "type": "color"
           },
-          "Selected": {
+          "Pressed": {
             "value": "$Neutrals.1000",
             "type": "color"
           }
@@ -2128,7 +2128,7 @@
           "type": "color"
         },
         "Issue-10": {
-          "value": "rgba({Color.Object.Customer},0.1)",
+          "value": "rgba({Color.Object.Issue},0.1)",
           "type": "color"
         },
         "Ticket-10": {
