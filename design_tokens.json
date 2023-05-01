@@ -2470,7 +2470,7 @@
         },
         "Navigation": {
           "Resting": {
-            "value": "{Neutrals.700}",
+            "value": "{Neutrals.360}",
             "type": "color"
           },
           "Pressed": {
