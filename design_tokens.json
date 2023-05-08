@@ -2626,11 +2626,11 @@
         },
         "Navigation": {
           "Pressed": {
-            "value": "{Neutrals.880}",
+            "value": "{Accent.400}",
             "type": "color"
           },
           "Hovered": {
-            "value": "{Accent.400}",
+            "value": "{Neutrals.880}",
             "type": "color"
           }
         },
