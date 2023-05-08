@@ -2629,11 +2629,11 @@
           }
         },
         "Navigation": {
-          "Pressed": {
+          "Hovered": {
             "value": "{Neutrals.880}",
             "type": "color"
           },
-          "Hovered": {
+          "Pressed": {
             "value": "{Accent.400}",
             "type": "color"
           }
