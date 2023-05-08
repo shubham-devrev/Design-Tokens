@@ -1917,8 +1917,8 @@
           "value": "rgba($Accent.600,0.1)",
           "type": "color"
         },
-        "Neutral": {
-          "value": "{Text.Color.Tertiary}",
+        "Inverted": {
+          "value": "{Neutrals.1000}",
           "type": "color"
         },
         "Neutral-10": {
@@ -2243,6 +2243,10 @@
         },
         "Neutral": {
           "value": "{Text.Color.Tertiary}",
+          "type": "color"
+        },
+        "Inverted": {
+          "value": "{Neutrals.80}",
           "type": "color"
         },
         "Neutral-10": {
@@ -2626,11 +2630,11 @@
         },
         "Navigation": {
           "Pressed": {
-            "value": "{Accent.400}",
+            "value": "{Neutrals.880}",
             "type": "color"
           },
           "Hovered": {
-            "value": "{Neutrals.880}",
+            "value": "{Accent.400}",
             "type": "color"
           }
         },
