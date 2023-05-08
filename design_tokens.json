@@ -1193,7 +1193,7 @@
           "type": "color"
         },
         "01": {
-          "value": "$Neutrals.140",
+          "value": "$Neutrals.120",
           "type": "color"
         },
         "02": {
@@ -1570,7 +1570,7 @@
         },
         "Navigation": {
           "Pressed": {
-            "value": "{Neutrals.280}",
+            "value": "{Accent.600}",
             "type": "color"
           },
           "Hovered": {
@@ -2028,7 +2028,7 @@
             "value": "$Neutrals.940",
             "type": "color"
           },
-          "Pressed": {
+          "Selected": {
             "value": "$Neutrals.1000",
             "type": "color"
           }
@@ -2128,7 +2128,7 @@
           "type": "color"
         },
         "Issue-10": {
-          "value": "rgba({Color.Object.Issue},0.1)",
+          "value": "rgba({Color.Object.Customer},0.1)",
           "type": "color"
         },
         "Ticket-10": {
@@ -2470,7 +2470,7 @@
         },
         "Navigation": {
           "Resting": {
-            "value": "{Neutrals.360}",
+            "value": "{Neutrals.700}",
             "type": "color"
           },
           "Pressed": {
