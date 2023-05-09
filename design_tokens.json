@@ -2011,11 +2011,11 @@
         },
         "Navigation": {
           "Hovered": {
-            "value": "$Neutrals.920",
+            "value": "$Neutrals.940",
             "type": "color"
           },
           "Pressed": {
-            "value": "{Neutrals.1000}",
+            "value": "{Accent.500}",
             "type": "color"
           }
         },
@@ -2044,6 +2044,16 @@
           },
           "Pressed": {
             "value": "{Smart.300}",
+            "type": "color"
+          }
+        },
+        "Tab": {
+          "Hovered": {
+            "value": "$Neutrals.940",
+            "type": "color"
+          },
+          "Pressed": {
+            "value": "{Neutrals.1000}",
             "type": "color"
           }
         }
@@ -2474,7 +2484,7 @@
         },
         "Navigation": {
           "Resting": {
-            "value": "{Neutrals.700}",
+            "value": "{Neutrals.360}",
             "type": "color"
           },
           "Pressed": {
@@ -2499,6 +2509,16 @@
           },
           "Hovered": {
             "value": "{Decoratives.Blue.450}",
+            "type": "color"
+          }
+        },
+        "Tab": {
+          "Resting": {
+            "value": "{Neutrals.360}",
+            "type": "color"
+          },
+          "Pressed": {
+            "value": "{Text.Color.Primary}",
             "type": "color"
           }
         }
@@ -2630,11 +2650,11 @@
         },
         "Navigation": {
           "Pressed": {
-            "value": "{Neutrals.880}",
+            "value": "{Accent.400}",
             "type": "color"
           },
           "Hovered": {
-            "value": "{Accent.400}",
+            "value": "{Neutrals.900}",
             "type": "color"
           }
         },
@@ -2663,6 +2683,16 @@
           },
           "Pressed": {
             "value": "{Smart.200}",
+            "type": "color"
+          }
+        },
+        "Tab": {
+          "Pressed": {
+            "value": "{Neutrals.960}",
+            "type": "color"
+          },
+          "Hovered": {
+            "value": "{Neutrals.900}",
             "type": "color"
           }
         }
