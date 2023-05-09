@@ -1272,7 +1272,7 @@
             "type": "color"
           },
           "Pressed": {
-            "value": "{Accent.500}",
+            "value": "{Neutrals.220}",
             "type": "color"
           }
         },
@@ -1570,11 +1570,11 @@
         },
         "Navigation": {
           "Pressed": {
-            "value": "{Accent.600}",
+            "value": "{Neutrals.240}",
             "type": "color"
           },
           "Hovered": {
-            "value": "{Neutrals.280}",
+            "value": "{Neutrals.220}",
             "type": "color"
           }
         },
@@ -2015,7 +2015,7 @@
             "type": "color"
           },
           "Pressed": {
-            "value": "{Accent.500}",
+            "value": "{Neutrals.1000}",
             "type": "color"
           }
         },
@@ -2128,7 +2128,7 @@
           "type": "color"
         },
         "Issue-10": {
-          "value": "rgba({Color.Object.Customer},0.1)",
+          "value": "rgba({Color.Object.Issue},0.1)",
           "type": "color"
         },
         "Ticket-10": {
