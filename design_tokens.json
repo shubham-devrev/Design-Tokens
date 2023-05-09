@@ -1303,6 +1303,16 @@
             "value": "{Smart.700}",
             "type": "color"
           }
+        },
+        "Tab": {
+          "Hovered": {
+            "value": "$Neutrals.180",
+            "type": "color"
+          },
+          "Pressed": {
+            "value": "{Neutrals.220}",
+            "type": "color"
+          }
         }
       },
       "Input": {
@@ -1439,6 +1449,16 @@
           },
           "Hovered": {
             "value": "{Decoratives.Blue.750}",
+            "type": "color"
+          }
+        },
+        "Tab": {
+          "Resting": {
+            "value": "{Neutrals.700}",
+            "type": "color"
+          },
+          "Pressed": {
+            "value": "{Text.Color.Highlight}",
             "type": "color"
           }
         }
@@ -1603,6 +1623,16 @@
           },
           "Pressed": {
             "value": "{Smart.800}",
+            "type": "color"
+          }
+        },
+        "Tab": {
+          "Pressed": {
+            "value": "{Neutrals.240}",
+            "type": "color"
+          },
+          "Hovered": {
+            "value": "{Neutrals.220}",
             "type": "color"
           }
         }
