@@ -1348,6 +1348,14 @@
           "Disabled": {
             "value": "{Neutrals.240}",
             "type": "color"
+          },
+          "Resting": {
+            "value": "{Neutrals.240}",
+            "type": "color"
+          },
+          "Hovered": {
+            "value": "{Neutrals.240}",
+            "type": "color"
           }
         }
       }
@@ -2120,6 +2128,14 @@
           },
           "Disabled": {
             "value": "{Neutrals.780}",
+            "type": "color"
+          },
+          "Resting": {
+            "value": "{Neutrals.860}",
+            "type": "color"
+          },
+          "Hovered": {
+            "value": "{Neutrals.820}",
             "type": "color"
           }
         }
