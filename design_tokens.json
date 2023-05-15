@@ -1964,6 +1964,21 @@
           "type": "color"
         }
       }
+    },
+    "Effects": {
+      "2d-shadow": {
+        "value": [
+          {
+            "color": "rgba({Neutrals.1000},0.05)",
+            "type": "innerShadow",
+            "x": "0",
+            "y": "-1",
+            "blur": "0",
+            "spread": "0"
+          }
+        ],
+        "type": "boxShadow"
+      }
     }
   },
   "Colors/Light": {
