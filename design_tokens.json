@@ -2672,11 +2672,11 @@
         },
         "Tertiary": {
           "Hovered": {
-            "value": "{Neutrals.960}",
+            "value": "{Neutrals.920}",
             "type": "color"
           },
           "Pressed": {
-            "value": "{Neutrals.920}",
+            "value": "{Neutrals.880}",
             "type": "color"
           }
         },
@@ -2752,6 +2752,21 @@
           "value": "rgba($Neutrals.80,0.1)",
           "type": "color"
         }
+      }
+    },
+    "Effects": {
+      "2d-shadow": {
+        "value": [
+          {
+            "color": "rgba({Neutrals.80},0.05)",
+            "type": "innerShadow",
+            "x": "0",
+            "y": "-1",
+            "blur": "0",
+            "spread": "0"
+          }
+        ],
+        "type": "boxShadow"
       }
     }
   },
