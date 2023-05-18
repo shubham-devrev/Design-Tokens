@@ -2138,7 +2138,7 @@
             "type": "color"
           },
           "Pressed": {
-            "value": "{Accent.600}",
+            "value": "{Accent.400}",
             "type": "color"
           },
           "Disabled": {
@@ -2289,11 +2289,11 @@
           "type": "color"
         },
         "Warning": {
-          "value": "$Warning.650",
+          "value": "$Warning.250",
           "type": "color"
         },
         "Warning-10": {
-          "value": "rgba($Warning.650,0.1)",
+          "value": "rgba($Warning.250,0.1)",
           "type": "color"
         },
         "Smart": {
