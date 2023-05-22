@@ -1646,11 +1646,11 @@
         }
       },
       "Transparent": {
-        "01": {
+        "opacity-05": {
           "value": "rgba($Neutrals.1000,0.05)",
           "type": "color"
         },
-        "02": {
+        "opacity-10": {
           "value": "rgba($Neutrals.1000,0.1)",
           "type": "color"
         }
@@ -2759,11 +2759,11 @@
         }
       },
       "Transparent": {
-        "01": {
+        "opacity-05": {
           "value": "rgba($Neutrals.80,0.05)",
           "type": "color"
         },
-        "02": {
+        "opacity-10": {
           "value": "rgba($Neutrals.80,0.1)",
           "type": "color"
         }
