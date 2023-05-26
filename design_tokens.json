@@ -1932,11 +1932,11 @@
           "type": "color"
         },
         "Warning": {
-          "value": "$Warning.450",
+          "value": "$Warning.550",
           "type": "color"
         },
         "Warning-10": {
-          "value": "rgba($Warning.450,0.1)",
+          "value": "rgba({Warning.550},0.1)",
           "type": "color"
         },
         "Smart": {
