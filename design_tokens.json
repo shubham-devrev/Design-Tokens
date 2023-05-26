@@ -2203,7 +2203,7 @@
           "type": "color"
         },
         "Ticket-10": {
-          "value": "rgba({Color.Object.Developer},0.1)",
+          "value": "rgba( {Color.Object.Ticket},0.1)",
           "type": "color"
         },
         "Conversation-10": {
