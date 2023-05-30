@@ -1913,6 +1913,14 @@
           "value": "$Decoratives.Blue.800",
           "type": "color"
         },
+        "Mention": {
+          "value": "$Decoratives.Orange.800",
+          "type": "color"
+        },
+        "Mention-10": {
+          "value": "rgba( {Color.Object.Mention} ,0.1)",
+          "type": "color"
+        },
         "Developer-10": {
           "value": "rgba( {Color.Object.Developer} ,0.1)",
           "type": "color"
@@ -2272,6 +2280,14 @@
         },
         "Developer": {
           "value": "$Decoratives.Blue.600",
+          "type": "color"
+        },
+        "Mention": {
+          "value": "{Decoratives.Orange.600}",
+          "type": "color"
+        },
+        "Mention-10": {
+          "value": "rgba({Color.Object.Mention} ,0.1)",
           "type": "color"
         },
         "Developer-10": {
