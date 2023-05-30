@@ -1910,7 +1910,11 @@
           "type": "color"
         },
         "Developer": {
-          "value": "$Decoratives.Blue.900",
+          "value": "$Decoratives.Blue.800",
+          "type": "color"
+        },
+        "Developer-10": {
+          "value": "rgba( {Color.Object.Developer} ,0.1)",
           "type": "color"
         }
       },
@@ -2267,7 +2271,11 @@
           "type": "color"
         },
         "Developer": {
-          "value": "$Decoratives.Blue.900",
+          "value": "$Decoratives.Blue.600",
+          "type": "color"
+        },
+        "Developer-10": {
+          "value": "rgba( {Color.Object.Developer} ,0.1)",
           "type": "color"
         }
       },
