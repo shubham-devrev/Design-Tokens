@@ -2525,7 +2525,7 @@
         },
         "Secondary": {
           "Resting": {
-            "value": "{Text.Color.Primary}",
+            "value": "{Neutrals.280}",
             "type": "color"
           }
         },
